@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: anaconda 35.6\n"
+"Project-Id-Version: anaconda 35.7\n"
 "Report-Msgid-Bugs-To: anaconda-devel-list@redhat.com\n"
-"POT-Creation-Date: 2021-03-02 00:41+0000\n"
+"POT-Creation-Date: 2021-03-03 00:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2917,7 +2917,7 @@ msgctxt "GUI|Storage|Warning Dialog"
 msgid "_OK"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/welcome.py:268
+#: pyanaconda/ui/gui/spokes/welcome.py:269
 #, python-format
 msgid "WELCOME TO %(name)s %(version)s."
 msgstr ""
@@ -5393,28 +5393,28 @@ msgid ""
 "by selecting \"I want to exit\" which will reboot your system."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/welcome.glade:130
+#: pyanaconda/ui/gui/spokes/welcome.glade:133
 msgid "Beta Warn"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/welcome.glade:228
+#: pyanaconda/ui/gui/spokes/welcome.glade:232
 msgid "What language would you like to use during the installation process?"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/welcome.glade:313
+#: pyanaconda/ui/gui/spokes/welcome.glade:317
 msgid "Languages"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/welcome.glade:333
+#: pyanaconda/ui/gui/spokes/welcome.glade:337
 #: pyanaconda/ui/gui/spokes/language_support.glade:186
 msgid "Type here to search."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/welcome.glade:385
+#: pyanaconda/ui/gui/spokes/welcome.glade:389
 msgid "Locales"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/welcome.glade:419
+#: pyanaconda/ui/gui/spokes/welcome.glade:423
 msgid "WELCOME"
 msgstr ""
 
