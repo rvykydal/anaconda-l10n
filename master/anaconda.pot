@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 35.7\n"
 "Report-Msgid-Bugs-To: anaconda-devel-list@redhat.com\n"
-"POT-Creation-Date: 2021-03-04 00:48+0000\n"
+"POT-Creation-Date: 2021-03-05 00:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3792,17 +3792,17 @@ msgstr ""
 
 #: pyanaconda/network.py:496
 #, python-format
-msgid "Bond %(interface_name)s (%(list_of_slaves)s) connected"
+msgid "Bond %(interface_name)s (%(list_of_ports)s) connected"
 msgstr ""
 
 #: pyanaconda/network.py:500
 #, python-format
-msgid "Team %(interface_name)s (%(list_of_slaves)s) connected"
+msgid "Team %(interface_name)s (%(list_of_ports)s) connected"
 msgstr ""
 
 #: pyanaconda/network.py:504
 #, python-format
-msgid "Bridge %(interface_name)s (%(list_of_slaves)s) connected"
+msgid "Bridge %(interface_name)s (%(list_of_ports)s) connected"
 msgstr ""
 
 #: pyanaconda/network.py:510
@@ -5175,7 +5175,7 @@ msgid ""
 msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.glade:702
-msgid "Slaves"
+msgid "Ports"
 msgstr ""
 
 #: pyanaconda/ui/gui/spokes/network.glade:726
