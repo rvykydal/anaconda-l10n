@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.4)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.4\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-09 01:44+0000\n"
+"POT-Creation-Date: 2023-03-10 01:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.4)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.4\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-09 01:44+0000\n"
+"POT-Creation-Date: 2023-03-10 01:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.4)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.4\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-09 01:42+0000\n"
+"POT-Creation-Date: 2023-03-10 01:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -140,9 +140,9 @@ msgid ""
 "if you used all of the free space available on the selected disks."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/lib/installation_source_helpers.py:46
 #: pyanaconda/ui/gui/spokes/custom_storage.py:1768
 #: pyanaconda/ui/gui/spokes/custom_storage.py:1772
+#: pyanaconda/ui/gui/spokes/lib/installation_source_helpers.py:46
 msgid " <a href=\"\">Click for details.</a>"
 msgstr ""
 
@@ -1028,8 +1028,8 @@ msgstr ""
 msgid "City"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:151
 #: pyanaconda/modules/payloads/source/closest_mirror/closest_mirror.py:52
+#: pyanaconda/ui/tui/spokes/installation_source.py:151
 #: pyanaconda/ui/gui/spokes/installation_source.glade:338
 msgid "Closest mirror"
 msgstr ""
@@ -2044,9 +2044,9 @@ msgstr ""
 msgid "IMEI"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/advanced_storage.glade:67
 #: pyanaconda/ui/gui/spokes/storage.glade:14
 #: pyanaconda/ui/gui/spokes/storage.glade:728
+#: pyanaconda/ui/gui/spokes/advanced_storage.glade:67
 msgid "INSTALLATION DESTINATION"
 msgstr ""
 
@@ -2631,10 +2631,10 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:1438
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:1761
 #: pyanaconda/ui/gui/spokes/lib/cart.glade:150
-#: pyanaconda/ui/gui/spokes/lib/additional_repositories.glade:92
 #: pyanaconda/ui/gui/spokes/lib/resize.glade:161
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:237
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:740
+#: pyanaconda/ui/gui/spokes/lib/additional_repositories.glade:92
 #: ui/webui/src/components/storage/InstallationDestination.jsx:313
 msgid "Name"
 msgstr ""
@@ -2662,8 +2662,8 @@ msgstr ""
 msgid "Name cannot start with '-' character."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:631
 #: pyanaconda/modules/storage/partitioning/interactive/utils.py:329
+#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:631
 msgid "Name is already in use."
 msgstr ""
 
@@ -3031,9 +3031,9 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/root_password.py:90
 #: pyanaconda/ui/tui/spokes/user.py:148
+#: pyanaconda/ui/gui/spokes/root_password.glade:240
 #: pyanaconda/ui/gui/spokes/subscription.glade:181
 #: pyanaconda/ui/gui/spokes/subscription.glade:569
-#: pyanaconda/ui/gui/spokes/root_password.glade:240
 #: pyanaconda/ui/gui/spokes/user.glade:175
 msgid "Password"
 msgstr ""
@@ -3042,9 +3042,9 @@ msgstr ""
 msgid "Password (confirm): "
 msgstr ""
 
+#: pyanaconda/core/constants.py:210
 #: pyanaconda/ui/gui/spokes/subscription.py:218
 #: pyanaconda/ui/gui/spokes/subscription.py:232
-#: pyanaconda/core/constants.py:210
 msgid "Password set."
 msgstr ""
 
@@ -3082,8 +3082,8 @@ msgstr ""
 msgid "Performing post-installation Flatpak tasks"
 msgstr ""
 
-#: pyanaconda/installation.py:449
 #: pyanaconda/modules/payloads/payload/dnf/transaction_progress.py:53
+#: pyanaconda/installation.py:449
 msgid "Performing post-installation setup tasks"
 msgstr ""
 
@@ -3093,7 +3093,7 @@ msgid ""
 "\"lvmpv\"."
 msgstr ""
 
-#: pyanaconda/ui/tui/hubs/__init__.py:142 pyanaconda/ui/tui/hubs/summary.py:152
+#: pyanaconda/ui/tui/hubs/summary.py:152 pyanaconda/ui/tui/hubs/__init__.py:142
 msgid "Please complete all spokes before continuing"
 msgstr ""
 
@@ -3519,9 +3519,9 @@ msgstr ""
 msgid "Registration failed due to insufficient credentials."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/subscription.py:988
 #: pyanaconda/modules/subscription/runtime.py:260
 #: pyanaconda/modules/subscription/runtime.py:306
+#: pyanaconda/ui/gui/spokes/subscription.py:988
 msgid "Registration failed."
 msgstr ""
 
@@ -3677,7 +3677,7 @@ msgstr ""
 msgid "Running post-installation scripts"
 msgstr ""
 
-#: pyanaconda/installation.py:357 pyanaconda/kickstart.py:427
+#: pyanaconda/kickstart.py:427 pyanaconda/installation.py:357
 msgid "Running pre-installation scripts"
 msgstr ""
 
@@ -3733,8 +3733,8 @@ msgstr ""
 msgid "SUMMARY OF CHANGES"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/lib/accordion.py:432
 #: pyanaconda/ui/categories/system.py:30
+#: pyanaconda/ui/gui/spokes/lib/accordion.py:432
 msgid "SYSTEM"
 msgstr ""
 
@@ -4797,6 +4797,7 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
+#: pyanaconda/ui/gui/spokes/welcome.py:210
 #: pyanaconda/ui/gui/spokes/language_support.glade:186
 #: pyanaconda/ui/gui/spokes/welcome.glade:206
 msgid "Type here to search."
@@ -4858,9 +4859,9 @@ msgstr ""
 msgid "Unformatted DASDs Detected"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/network.py:284
 #: pyanaconda/ui/gui/spokes/custom_storage.py:466
-#: pyanaconda/ui/gui/spokes/custom_storage.py:509 pyanaconda/network.py:433
+#: pyanaconda/ui/gui/spokes/custom_storage.py:509
+#: pyanaconda/ui/gui/spokes/network.py:284 pyanaconda/network.py:433
 msgid "Unknown"
 msgstr ""
 
@@ -4965,8 +4966,8 @@ msgstr ""
 msgid "User %s will be created"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/network.glade:1893
 #: pyanaconda/ui/gui/spokes/user.glade:120
+#: pyanaconda/ui/gui/spokes/network.glade:1893
 msgid "User Name"
 msgstr ""
 
@@ -5083,7 +5084,7 @@ msgstr ""
 msgid "WELCOME"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/welcome.py:220
+#: pyanaconda/ui/gui/spokes/welcome.py:205
 #, python-format
 msgid "WELCOME TO %(name)s %(version)s."
 msgstr ""
@@ -5206,6 +5207,7 @@ msgstr ""
 msgid "Welcome to Fedora"
 msgstr ""
 
+#: pyanaconda/ui/gui/spokes/welcome.py:199
 #: pyanaconda/ui/gui/spokes/welcome.glade:101
 msgid "What language would you like to use during the installation process?"
 msgstr ""
@@ -6216,8 +6218,8 @@ msgctxt "GUI|Software Source"
 msgid "_Proxy setup..."
 msgstr ""
 
-#: pyanaconda/ui/gui/__init__.py:845
 #: pyanaconda/ui/gui/spokes/lib/detailederror.py:58
+#: pyanaconda/ui/gui/__init__.py:845
 msgctxt "GUI|Detailed Error Dialog"
 msgid "_Quit"
 msgstr ""
@@ -6910,9 +6912,9 @@ msgstr ""
 msgid "In progress"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:55
-#: ui/webui/src/components/storage/InstallationDestination.jsx:476
 #: ui/webui/src/components/review/ReviewConfiguration.jsx:86
+#: ui/webui/src/components/storage/InstallationDestination.jsx:476
+#: ui/webui/src/components/AnacondaWizard.jsx:55
 msgid "Installation destination"
 msgstr ""
 
@@ -6981,8 +6983,8 @@ msgstr ""
 msgid "Reboot"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:60
 #: ui/webui/src/components/review/ReviewConfiguration.jsx:74
+#: ui/webui/src/components/AnacondaWizard.jsx:60
 msgid "Review and install"
 msgstr ""
 
