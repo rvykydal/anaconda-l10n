@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.4)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.4\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-10 01:44+0000\n"
+"POT-Creation-Date: 2023-03-11 01:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.4)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.4\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-10 01:44+0000\n"
+"POT-Creation-Date: 2023-03-11 01:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.4)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.4\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-10 01:42+0000\n"
+"POT-Creation-Date: 2023-03-11 01:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,44 +181,44 @@ msgid_plural " and {} others"
 msgstr[0] ""
 msgstr[1] ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:656
+#: pyanaconda/modules/storage/bootloader/base.py:661
 #, python-format
 msgid ""
 "%(bootloader_stage2_description)s cannot be on an iSCSI disk which is not "
 "configured in iBFT."
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:663
+#: pyanaconda/modules/storage/bootloader/base.py:668
 #, python-format
 msgid "%(desc)s cannot be of type %(type)s"
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:374
+#: pyanaconda/modules/storage/bootloader/base.py:375
 #, python-format
 msgid "%(desc)s cannot be of type %(type)s."
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:392
+#: pyanaconda/modules/storage/bootloader/base.py:393
 #, python-format
 msgid "%(desc)s must be between %(min)d and %(max)d MB in size"
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:380
+#: pyanaconda/modules/storage/bootloader/base.py:381
 #, python-format
 msgid "%(desc)s must be mounted on one of %(mountpoints)s."
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:425
+#: pyanaconda/modules/storage/bootloader/base.py:426
 #, python-format
 msgid "%(desc)s must be within the first %(max_end)s of the disk."
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:407
+#: pyanaconda/modules/storage/bootloader/base.py:408
 #, python-format
 msgid "%(desc)s must not be larger than %(max)dMB."
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:398
+#: pyanaconda/modules/storage/bootloader/base.py:399
 #, python-format
 msgid "%(desc)s must not be smaller than %(min)dMB."
 msgstr ""
@@ -240,7 +240,7 @@ msgstr ""
 msgid "%(items_selected)s of %(items_total)s mount points in %(page_name)s"
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:362
+#: pyanaconda/modules/storage/bootloader/base.py:363
 #, python-format
 msgid "%(name)s must have one of the following disklabel types: %(types)s."
 msgstr ""
@@ -285,8 +285,8 @@ msgstr[1] ""
 msgid "%s The disks you've selected have the following amounts of free space:"
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:579
-#: pyanaconda/modules/storage/bootloader/base.py:704
+#: pyanaconda/modules/storage/bootloader/base.py:580
+#: pyanaconda/modules/storage/bootloader/base.py:709
 #, python-format
 msgid "%s cannot be on an encrypted block device."
 msgstr ""
@@ -317,7 +317,7 @@ msgid ""
 "Go ahead and reboot your system to start using it!"
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:435
+#: pyanaconda/modules/storage/bootloader/base.py:436
 #, python-format
 msgid "%s must be on a primary partition."
 msgstr ""
@@ -342,7 +342,7 @@ msgstr ""
 msgid "/boot cannot be of type \"lvmlv\" on s390x"
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:189
+#: pyanaconda/modules/storage/bootloader/base.py:190
 msgid "/boot file system"
 msgstr ""
 
@@ -810,7 +810,7 @@ msgstr ""
 msgid "Boot"
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:523
+#: pyanaconda/modules/storage/bootloader/base.py:524
 msgid ""
 "Boot loader stage1 device cannot be on an iSCSI disk which is not configured "
 "in iBFT."
@@ -1735,6 +1735,12 @@ msgstr ""
 msgid "Failed to unlock encrypted block device."
 msgstr ""
 
+#: pyanaconda/modules/storage/bootloader/systemd.py:127
+msgid ""
+"Failed to write boot loader configuration. More information may be found in "
+"the log files stored in /tmp"
+msgstr ""
+
 #: pyanaconda/core/constants.py:219
 msgid "Fair"
 msgstr ""
@@ -1866,11 +1872,11 @@ msgstr ""
 msgid "Fully numeric name is not allowed."
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/bootloader.py:172
+#: pyanaconda/modules/storage/bootloader/bootloader.py:175
 msgid "GRUB2 does not support installation to a partition."
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/bootloader.py:179
+#: pyanaconda/modules/storage/bootloader/bootloader.py:182
 msgid "GRUB2 encrypted password must be in grub.pbkdf2 format."
 msgstr ""
 
@@ -3344,21 +3350,21 @@ msgstr ""
 msgid "RAID partition \"{}\" is defined multiple times."
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:346
+#: pyanaconda/modules/storage/bootloader/base.py:347
 #, python-format
 msgid ""
 "RAID sets that contain '%(desc)s' must have one of the following device "
 "types: %(types)s."
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:338
+#: pyanaconda/modules/storage/bootloader/base.py:339
 #, python-format
 msgid ""
 "RAID sets that contain '%(desc)s' must have one of the following metadata "
 "versions: %(metadata_versions)s."
 msgstr ""
 
-#: pyanaconda/modules/storage/bootloader/base.py:330
+#: pyanaconda/modules/storage/bootloader/base.py:331
 #, python-format
 msgid ""
 "RAID sets that contain '%(desc)s' must have one of the following raid "
@@ -4141,6 +4147,10 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/subscription.glade:799
 msgid "System Purpose"
+msgstr ""
+
+#: pyanaconda/modules/storage/bootloader/efi.py:217
+msgid "Systemd-boot is not supported on this platform"
 msgstr ""
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade:92
@@ -6564,6 +6574,12 @@ msgid ""
 "boot loader stage2 device %(stage2dev)s is on a multi-disk array, but boot "
 "loader stage1 device %(stage1dev)s is not. A drive failure in %(stage2dev)s "
 "could render the system unbootable."
+msgstr ""
+
+#: pyanaconda/modules/storage/bootloader/systemd.py:142
+msgid ""
+"bootctl failed to install UEFI boot loader. More information may be found in "
+"the log files stored in /tmp"
 msgstr ""
 
 #: pyanaconda/ntp.py:51
