@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.5)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.5\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-17 01:27+0000\n"
+"POT-Creation-Date: 2023-03-18 01:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.5)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.5\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-17 01:27+0000\n"
+"POT-Creation-Date: 2023-03-18 01:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.5)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.5\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-17 01:25+0000\n"
+"POT-Creation-Date: 2023-03-18 01:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -644,7 +644,7 @@ msgstr ""
 msgid "An unknown error occurred during installation.  Details are below."
 msgstr ""
 
-#: pyanaconda/core/constants.py:274
+#: pyanaconda/core/constants.py:283
 msgid "Anaconda Installer"
 msgstr ""
 
@@ -728,6 +728,15 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/network_secret_agent.py:180
 #: pyanaconda/ui/gui/spokes/lib/network_secret_agent.glade:95
 msgid "Authentication required by wireless network"
+msgstr ""
+
+#: pyanaconda/ui/gui/spokes/installation_source.glade:88
+msgctxt "GUI|Software Source"
+msgid "Auto-detected installation _source"
+msgstr ""
+
+#: pyanaconda/modules/payloads/source/repo_path/repo_path.py:58
+msgid "Auto-detected source"
 msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:955
@@ -1001,7 +1010,7 @@ msgstr ""
 msgid "Checking image checksum"
 msgstr ""
 
-#: pyanaconda/core/constants.py:271
+#: pyanaconda/core/constants.py:280
 msgid "Checking software dependencies..."
 msgstr ""
 
@@ -1030,7 +1039,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/installation_source.py:151
 #: pyanaconda/modules/payloads/source/closest_mirror/closest_mirror.py:52
-#: pyanaconda/ui/gui/spokes/installation_source.glade:338
+#: pyanaconda/ui/gui/spokes/installation_source.glade:356
 msgid "Closest mirror"
 msgstr ""
 
@@ -1360,7 +1369,7 @@ msgstr ""
 msgid "Device removal request failed."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:202
+#: pyanaconda/ui/gui/spokes/installation_source.glade:220
 msgctxt "GUI|Software Source"
 msgid "Device with an _ISO file"
 msgstr ""
@@ -1369,11 +1378,11 @@ msgstr ""
 msgid "Device(s):"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:115
+#: pyanaconda/ui/gui/spokes/installation_source.glade:133
 msgid "Device:"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:537
+#: pyanaconda/ui/gui/spokes/installation_source.py:558
 #, python-format
 msgid "Device: %s"
 msgstr ""
@@ -1475,15 +1484,15 @@ msgctxt "GUI|Custom Partitioning|Confirm Delete Dialog"
 msgid "Do _not show this dialog for other selected file systems."
 msgstr ""
 
-#: pyanaconda/core/constants.py:84
+#: pyanaconda/core/constants.py:93
 msgid "Do you really want to quit?"
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:509
+#: pyanaconda/payload/dnf/payload.py:537
 msgid "Downloading group metadata..."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:500
+#: pyanaconda/payload/dnf/payload.py:528
 msgid "Downloading package metadata..."
 msgstr ""
 
@@ -1518,13 +1527,13 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: pyanaconda/core/users.py:107
+#: pyanaconda/core/users.py:106
 msgid ""
 "Either a group name in the group list is invalid or groups are not separated "
 "by a comma."
 msgstr ""
 
-#: pyanaconda/core/constants.py:216
+#: pyanaconda/core/constants.py:225
 msgid "Empty"
 msgstr ""
 
@@ -1659,7 +1668,7 @@ msgstr ""
 msgid "Error detail: "
 msgstr ""
 
-#: pyanaconda/core/constants.py:270
+#: pyanaconda/core/constants.py:279
 msgid "Error setting up repositories"
 msgstr ""
 
@@ -1723,11 +1732,11 @@ msgstr ""
 msgid "Failed to save storage configuration"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:246
+#: pyanaconda/ui/gui/spokes/installation_source.py:252
 msgid "Failed to set up installation source; check the NFS configuration."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:444
+#: pyanaconda/ui/gui/spokes/installation_source.py:452
 msgid "Failed to set up installation sources; check their configurations."
 msgstr ""
 
@@ -1741,7 +1750,7 @@ msgid ""
 "the log files stored in /tmp"
 msgstr ""
 
-#: pyanaconda/core/constants.py:219
+#: pyanaconda/core/constants.py:228
 msgid "Fair"
 msgstr ""
 
@@ -1868,7 +1877,7 @@ msgstr ""
 msgid "Full name cannot contain colon characters"
 msgstr ""
 
-#: pyanaconda/core/users.py:145
+#: pyanaconda/core/users.py:144
 msgid "Fully numeric name is not allowed."
 msgstr ""
 
@@ -1912,7 +1921,7 @@ msgid_plural "Giving up attempting to connect after %d tries!\n"
 msgstr[0] ""
 msgstr[1] ""
 
-#: pyanaconda/core/constants.py:220
+#: pyanaconda/core/constants.py:229
 msgid "Good"
 msgstr ""
 
@@ -1971,7 +1980,7 @@ msgstr ""
 msgid "Here we'll describe what your options are."
 msgstr ""
 
-#: pyanaconda/core/constants.py:224
+#: pyanaconda/core/constants.py:233
 msgid "Hide password."
 msgstr ""
 
@@ -1995,10 +2004,10 @@ msgstr ""
 msgid "Host name cannot be None or an empty string."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/network.py:1597
-#: pyanaconda/ui/gui/spokes/network.py:1616
-#: pyanaconda/ui/gui/spokes/network.py:1717
-#: pyanaconda/ui/gui/spokes/network.py:1735
+#: pyanaconda/ui/gui/spokes/network.py:1593
+#: pyanaconda/ui/gui/spokes/network.py:1612
+#: pyanaconda/ui/gui/spokes/network.py:1713
+#: pyanaconda/ui/gui/spokes/network.py:1731
 #: pyanaconda/ui/tui/spokes/network.py:433
 #, python-format
 msgid "Host name is not valid: %s"
@@ -2152,14 +2161,14 @@ msgstr ""
 msgid "Install additional software from another source"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:501
+#: pyanaconda/ui/gui/spokes/installation_source.glade:519
 msgctxt "GUI|Software Source"
 msgid ""
 "Install the _default versions provided by the installation source (above) "
 "only"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:484
+#: pyanaconda/ui/gui/spokes/installation_source.glade:502
 msgctxt "GUI|Software Source"
 msgid "Install the _latest available software updates"
 msgstr ""
@@ -2194,7 +2203,7 @@ msgstr ""
 msgid "Installation complete. Press %s to quit"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:161
+#: pyanaconda/ui/gui/spokes/installation_source.glade:179
 msgctxt "GUI|Software Source"
 msgid "Installation media via SE/_HMC"
 msgstr ""
@@ -2256,13 +2265,13 @@ msgstr ""
 msgid "Interface"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:774
+#: pyanaconda/ui/gui/spokes/installation_source.py:801
 msgid ""
 "Invalid NFS server, exactly one colon ':' must be present between host and "
 "directory"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:761
+#: pyanaconda/ui/gui/spokes/installation_source.py:788
 #: pyanaconda/ui/gui/spokes/lib/installation_source_helpers.py:256
 msgid "Invalid URL"
 msgstr ""
@@ -2279,7 +2288,7 @@ msgstr ""
 msgid "Invalid group name."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:782
+#: pyanaconda/ui/gui/spokes/installation_source.py:809
 msgid "Invalid host name"
 msgstr ""
 
@@ -2395,11 +2404,11 @@ msgstr ""
 msgid "LVM Thin Provisioning"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:127
+#: pyanaconda/ui/gui/spokes/installation_source.glade:145
 msgid "Label:"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:538
+#: pyanaconda/ui/gui/spokes/installation_source.py:559
 #, python-format
 msgid "Label: %s"
 msgstr ""
@@ -2599,11 +2608,11 @@ msgstr ""
 msgid "NETWORK CONFIGURATION"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:342
+#: pyanaconda/ui/tui/spokes/installation_source.py:343
 msgid "NFS mount options"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:770
+#: pyanaconda/ui/gui/spokes/installation_source.py:797
 msgid "NFS server is empty"
 msgstr ""
 
@@ -2628,7 +2637,7 @@ msgstr ""
 msgid "NVDIMM device {namespace}"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:422
+#: pyanaconda/ui/gui/spokes/installation_source.glade:440
 msgctxt "GUI|Software Source"
 msgid "N_FS mount options:"
 msgstr ""
@@ -2645,26 +2654,26 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: pyanaconda/core/users.py:149
+#: pyanaconda/core/users.py:148
 msgid "Name '$' is not allowed."
 msgstr ""
 
-#: pyanaconda/core/users.py:166
+#: pyanaconda/core/users.py:165
 #, python-format
 msgid "Name '%s' is invalid."
 msgstr ""
 
-#: pyanaconda/core/users.py:142
+#: pyanaconda/core/users.py:141
 #, python-format
 msgid "Name '%s' is not allowed."
 msgstr ""
 
-#: pyanaconda/core/users.py:159
+#: pyanaconda/core/users.py:158
 #, python-format
 msgid "Name cannot contain character: '%s'"
 msgstr ""
 
-#: pyanaconda/core/users.py:139
+#: pyanaconda/core/users.py:138
 msgid "Name cannot start with '-' character."
 msgstr ""
 
@@ -2673,7 +2682,7 @@ msgstr ""
 msgid "Name is already in use."
 msgstr ""
 
-#: pyanaconda/core/users.py:162
+#: pyanaconda/core/users.py:161
 msgid "Name must be shorter than 33 characters."
 msgstr ""
 
@@ -2741,7 +2750,7 @@ msgstr ""
 msgid "New {name} {version} Installation"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:484
+#: pyanaconda/ui/tui/spokes/installation_source.py:485
 msgid "No *.iso files found in device root folder"
 msgstr ""
 
@@ -2753,7 +2762,7 @@ msgstr ""
 msgid "No additional software to select."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:514
+#: pyanaconda/payload/dnf/payload.py:542
 msgid "No base repository is configured."
 msgstr ""
 
@@ -2779,7 +2788,7 @@ msgstr ""
 msgid "No disks assigned"
 msgstr ""
 
-#: pyanaconda/core/constants.py:142
+#: pyanaconda/core/constants.py:151
 msgid ""
 "No disks detected.  Please shut down the computer, connect at least one "
 "disk, and restart to complete installation."
@@ -2798,7 +2807,7 @@ msgstr ""
 msgid "No disks selected. Keeping previous disk set."
 msgstr ""
 
-#: pyanaconda/core/constants.py:147
+#: pyanaconda/core/constants.py:156
 msgid "No disks selected; please select at least one disk to install to."
 msgstr ""
 
@@ -2814,7 +2823,7 @@ msgstr ""
 msgid "No match found for given boot drive \"{}\"."
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:439
+#: pyanaconda/ui/tui/spokes/installation_source.py:440
 msgid "No mountable devices found"
 msgstr ""
 
@@ -3050,7 +3059,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/subscription.py:218
 #: pyanaconda/ui/gui/spokes/subscription.py:232
-#: pyanaconda/core/constants.py:210
+#: pyanaconda/core/constants.py:219
 msgid "Password set."
 msgstr ""
 
@@ -3258,7 +3267,7 @@ msgctxt "GUI|Reclaim Dialog"
 msgid "Preserve _all"
 msgstr ""
 
-#: pyanaconda/core/constants.py:204
+#: pyanaconda/core/constants.py:213
 msgid "Press <b>Done</b> again to use the password anyway."
 msgstr ""
 
@@ -3285,7 +3294,7 @@ msgstr ""
 msgid "Probing storage"
 msgstr ""
 
-#: pyanaconda/core/constants.py:268
+#: pyanaconda/core/constants.py:277
 msgid "Probing storage..."
 msgstr ""
 
@@ -3300,7 +3309,7 @@ msgstr ""
 msgid "Progress"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:767
+#: pyanaconda/ui/gui/spokes/installation_source.py:794
 msgid "Protocol in URL does not match selected protocol"
 msgstr ""
 
@@ -3477,7 +3486,7 @@ msgid ""
 "visit the Red Hat Insights information page."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:179
+#: pyanaconda/ui/gui/spokes/installation_source.glade:197
 msgctxt "GUI|Software Source"
 msgid "Red Hat _CDN"
 msgstr ""
@@ -3521,7 +3530,7 @@ msgstr ""
 msgid "Registering..."
 msgstr ""
 
-#: pyanaconda/ui/lib/subscription.py:305
+#: pyanaconda/ui/lib/subscription.py:299
 msgid "Registration failed due to insufficient credentials."
 msgstr ""
 
@@ -3535,7 +3544,7 @@ msgstr ""
 msgid "Reload storage configuration from disk."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:785
+#: pyanaconda/ui/gui/spokes/installation_source.py:812
 msgid "Remote directory is required"
 msgstr ""
 
@@ -3564,7 +3573,7 @@ msgstr ""
 msgid "Replace Existing Linux system(s)"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:274
+#: pyanaconda/ui/tui/spokes/installation_source.py:275
 msgid "Repo URL"
 msgstr ""
 
@@ -3700,7 +3709,7 @@ msgstr ""
 msgid "SELECTED DISKS AND BOOT LOADER"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:338
+#: pyanaconda/ui/tui/spokes/installation_source.py:339
 msgid "SERVER:/PATH"
 msgstr ""
 
@@ -3824,7 +3833,7 @@ msgid ""
 "Select all of the drives you would like the mount point to be created on."
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:468
+#: pyanaconda/ui/tui/spokes/installation_source.py:469
 msgid "Select an ISO to use as install source"
 msgstr ""
 
@@ -3832,7 +3841,7 @@ msgstr ""
 msgid "Select an NTP server to remove"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:396
+#: pyanaconda/ui/tui/spokes/installation_source.py:397
 msgid "Select device containing the ISO file"
 msgstr ""
 
@@ -3867,7 +3876,7 @@ msgstr ""
 msgid "Selected environment is not valid"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:352
+#: pyanaconda/ui/tui/spokes/installation_source.py:353
 msgid "Server must be specified as SERVER:/PATH"
 msgstr ""
 
@@ -3896,7 +3905,7 @@ msgstr ""
 msgid "Set timezone"
 msgstr ""
 
-#: pyanaconda/core/constants.py:269
+#: pyanaconda/core/constants.py:278
 msgid "Setting up installation source..."
 msgstr ""
 
@@ -3947,7 +3956,7 @@ msgctxt "GUI|Installation Destination|Filter|Other|Interconnect"
 msgid "Show Only _Devices With:"
 msgstr ""
 
-#: pyanaconda/core/constants.py:225
+#: pyanaconda/core/constants.py:234
 msgid "Show password."
 msgstr ""
 
@@ -3960,7 +3969,7 @@ msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "Si_ze policy:"
 msgstr ""
 
-#: pyanaconda/core/constants.py:162
+#: pyanaconda/core/constants.py:171
 msgid ""
 "Simultaneous Multithreading (SMT) may improve performance for certain "
 "workloads, but introduces several publicly disclosed security issues. You "
@@ -3969,7 +3978,7 @@ msgid ""
 "these risks."
 msgstr ""
 
-#: pyanaconda/core/constants.py:152
+#: pyanaconda/core/constants.py:161
 msgid ""
 "Simultaneous Multithreading (SMT) technology can provide performance "
 "improvements for certain workloads, but introduces several publicly "
@@ -4030,8 +4039,8 @@ msgstr ""
 msgid "Specialized & Network Disks"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:250
-#: pyanaconda/ui/tui/spokes/installation_source.py:315
+#: pyanaconda/ui/tui/spokes/installation_source.py:251
+#: pyanaconda/ui/tui/spokes/installation_source.py:316
 msgid "Specify Repo Options"
 msgstr ""
 
@@ -4070,7 +4079,7 @@ msgstr ""
 msgid "Standard Partition"
 msgstr ""
 
-#: pyanaconda/core/constants.py:80
+#: pyanaconda/core/constants.py:89
 msgid "Start VNC"
 msgstr ""
 
@@ -4095,7 +4104,7 @@ msgstr ""
 msgid "Starting automated install"
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:431
+#: pyanaconda/payload/dnf/payload.py:461
 msgid "Starting package installation process"
 msgstr ""
 
@@ -4128,7 +4137,7 @@ msgstr ""
 msgid "Storing configuration files and kickstarts"
 msgstr ""
 
-#: pyanaconda/core/constants.py:221
+#: pyanaconda/core/constants.py:230
 msgid "Strong"
 msgstr ""
 
@@ -4248,13 +4257,13 @@ msgid ""
 "system when running low on memory."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:356
+#: pyanaconda/payload/dnf/payload.py:386
 #, python-brace-format
 msgid ""
 "The '{repository_name}' repository has no mirror, baseurl or metalink set."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:404
+#: pyanaconda/payload/dnf/payload.py:434
 #, python-brace-format
 msgid "The '{repository_name}' repository uses an unsupported protocol."
 msgstr ""
@@ -4483,33 +4492,33 @@ msgstr ""
 msgid "The mount point %s must be on a linux file system."
 msgstr ""
 
-#: pyanaconda/core/constants.py:179
+#: pyanaconda/core/constants.py:188
 msgid "The passphrase is empty."
 msgstr ""
 
-#: pyanaconda/core/constants.py:194
+#: pyanaconda/core/constants.py:203
 msgid "The passphrase is too short"
 msgstr ""
 
-#: pyanaconda/core/constants.py:207
+#: pyanaconda/core/constants.py:216
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
 msgstr ""
 
-#: pyanaconda/core/constants.py:198
+#: pyanaconda/core/constants.py:207
 msgid "The passphrase you have provided is weak."
 msgstr ""
 
-#: pyanaconda/core/constants.py:202
+#: pyanaconda/core/constants.py:211
 msgid "The passphrase you have provided is weak:"
 msgstr ""
 
-#: pyanaconda/core/constants.py:183
+#: pyanaconda/core/constants.py:192
 msgid "The passphrases do not match."
 msgstr ""
 
-#: pyanaconda/core/constants.py:187
+#: pyanaconda/core/constants.py:196
 msgid "The passphrases you entered were different. Please try again."
 msgstr ""
 
@@ -4517,11 +4526,11 @@ msgstr ""
 msgid "The password cannot be more than eight characters long."
 msgstr ""
 
-#: pyanaconda/core/constants.py:178
+#: pyanaconda/core/constants.py:187
 msgid "The password is empty."
 msgstr ""
 
-#: pyanaconda/core/constants.py:193
+#: pyanaconda/core/constants.py:202
 msgid "The password is too short"
 msgstr ""
 
@@ -4533,25 +4542,25 @@ msgstr ""
 msgid "The password was set by kickstart."
 msgstr ""
 
-#: pyanaconda/core/constants.py:206
+#: pyanaconda/core/constants.py:215
 msgid ""
 "The password you have provided contains non-ASCII characters. You may not be "
 "able to switch between keyboard layouts when typing it."
 msgstr ""
 
-#: pyanaconda/core/constants.py:197
+#: pyanaconda/core/constants.py:206
 msgid "The password you have provided is weak."
 msgstr ""
 
-#: pyanaconda/core/constants.py:201
+#: pyanaconda/core/constants.py:210
 msgid "The password you have provided is weak:"
 msgstr ""
 
-#: pyanaconda/core/constants.py:182
+#: pyanaconda/core/constants.py:191
 msgid "The passwords do not match."
 msgstr ""
 
-#: pyanaconda/core/constants.py:186
+#: pyanaconda/core/constants.py:195
 msgid "The passwords you entered were different. Please try again."
 msgstr ""
 
@@ -4700,7 +4709,7 @@ msgid ""
 "may unlock it below."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:437
+#: pyanaconda/ui/gui/spokes/installation_source.glade:455
 msgid "This field is optional."
 msgstr ""
 
@@ -4781,7 +4790,7 @@ msgid ""
 "parameter."
 msgstr ""
 
-#: pyanaconda/core/constants.py:217
+#: pyanaconda/core/constants.py:226
 msgid "Too short"
 msgstr ""
 
@@ -4826,7 +4835,7 @@ msgstr ""
 msgid "URL has no host component"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:757
+#: pyanaconda/ui/gui/spokes/installation_source.py:784
 msgid "URL is empty"
 msgstr ""
 
@@ -4835,7 +4844,7 @@ msgstr ""
 msgid "URL of the repository"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:378
+#: pyanaconda/ui/gui/spokes/installation_source.glade:396
 msgctxt "GUI|Software Source"
 msgid "URL type:"
 msgstr ""
@@ -4848,7 +4857,7 @@ msgstr ""
 msgid "Unable to create PID file"
 msgstr ""
 
-#: pyanaconda/core/users.py:66
+#: pyanaconda/core/users.py:65
 msgid "Unable to encrypt password: unsupported algorithm {}"
 msgstr ""
 
@@ -4912,7 +4921,7 @@ msgstr ""
 msgid "Unsupported"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:470
+#: pyanaconda/ui/gui/spokes/installation_source.glade:488
 msgid "Updates"
 msgstr ""
 
@@ -4963,7 +4972,7 @@ msgstr ""
 msgid "Use password"
 msgstr ""
 
-#: pyanaconda/core/constants.py:81
+#: pyanaconda/core/constants.py:90
 msgid "Use text mode"
 msgstr ""
 
@@ -5000,7 +5009,7 @@ msgstr ""
 msgid "User name"
 msgstr ""
 
-#: pyanaconda/core/users.py:83
+#: pyanaconda/core/users.py:82
 #, python-format
 msgid "User name is reserved for system: %s"
 msgstr ""
@@ -5207,7 +5216,7 @@ msgid ""
 "make software updates available for you."
 msgstr ""
 
-#: pyanaconda/core/constants.py:218
+#: pyanaconda/core/constants.py:227
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade:182
 msgid "Weak"
 msgstr ""
@@ -5449,7 +5458,7 @@ msgstr ""
 msgid "You must set a password"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:690
+#: pyanaconda/ui/gui/spokes/installation_source.py:717
 msgid "You need to configure the network to use a network installation source."
 msgstr ""
 
@@ -5470,7 +5479,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: pyanaconda/core/constants.py:209
+#: pyanaconda/core/constants.py:218
 msgid "You will have to press <b>Done</b> twice to confirm it."
 msgstr ""
 
@@ -5620,7 +5629,7 @@ msgctxt "GUI|Network|Hostname"
 msgid "_Apply"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:88
+#: pyanaconda/ui/gui/spokes/installation_source.glade:106
 msgctxt "GUI|Software Source"
 msgid "_Auto-detected installation media:"
 msgstr ""
@@ -5780,7 +5789,7 @@ msgctxt "GUI|Storage|Need Space Dialog"
 msgid "_Cancel & add more disks"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:249
+#: pyanaconda/ui/gui/spokes/installation_source.glade:267
 msgctxt "GUI|Software Source"
 msgid "_Choose an ISO"
 msgstr ""
@@ -5960,7 +5969,7 @@ msgctxt "GUI|Spoke"
 msgid "_Installation Destination"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:81
+#: pyanaconda/ui/gui/spokes/installation_source.py:83
 msgctxt "GUI|Spoke"
 msgid "_Installation Source"
 msgstr ""
@@ -6151,7 +6160,7 @@ msgctxt "GUI|Summary|Warning Dialog"
 msgid "_OK"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:296
+#: pyanaconda/ui/gui/spokes/installation_source.glade:314
 msgctxt "GUI|Software Source"
 msgid "_On the network:"
 msgstr ""
@@ -6222,7 +6231,7 @@ msgctxt "GUI|Software Source|Proxy Dialog"
 msgid "_Proxy Host:"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:361
+#: pyanaconda/ui/gui/spokes/installation_source.glade:379
 msgctxt "GUI|Software Source"
 msgid "_Proxy setup..."
 msgstr ""
@@ -6512,8 +6521,8 @@ msgctxt "GUI|User"
 msgid "_User name"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:137
-#: pyanaconda/ui/gui/spokes/installation_source.glade:265
+#: pyanaconda/ui/gui/spokes/installation_source.glade:155
+#: pyanaconda/ui/gui/spokes/installation_source.glade:283
 msgctxt "GUI|Software Source"
 msgid "_Verify"
 msgstr ""
@@ -6644,11 +6653,11 @@ msgstr ""
 msgid "malformed URL, cannot parse it."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:395
+#: pyanaconda/ui/gui/spokes/installation_source.glade:413
 msgid "metalink"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:394
+#: pyanaconda/ui/gui/spokes/installation_source.glade:412
 msgid "mirrorlist"
 msgstr ""
 
@@ -6682,7 +6691,7 @@ msgstr ""
 msgid "raid --noformat must also use the --device option."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.glade:393
+#: pyanaconda/ui/gui/spokes/installation_source.glade:411
 msgid "repository URL"
 msgstr ""
 
@@ -6816,7 +6825,7 @@ msgid "{} subscriptions attached to the system"
 msgstr ""
 
 #. TRANSLATORS: Password error message from libreport library needs to be joined with "You will have to press <b>Done</b> twice to confirm it." add a missing '.'
-#: pyanaconda/core/constants.py:212
+#: pyanaconda/core/constants.py:221
 msgid "{}. {}"
 msgstr ""
 
