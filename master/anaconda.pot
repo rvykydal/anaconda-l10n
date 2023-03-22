@@ -6,10 +6,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  main.pot (anaconda 39.5)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.5\n"
+"#-#-#-#-#  main.pot (anaconda 39.6)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.6\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-21 01:22+0000\n"
+"POT-Creation-Date: 2023-03-22 01:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"#-#-#-#-#  main_js.pot (anaconda 39.5)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.5\n"
+"#-#-#-#-#  main_js.pot (anaconda 39.6)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.6\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-21 01:22+0000\n"
+"POT-Creation-Date: 2023-03-22 01:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,10 +30,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"#-#-#-#-#  extra.pot (anaconda 39.5)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.5\n"
+"#-#-#-#-#  extra.pot (anaconda 39.6)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.6\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-21 01:20+0000\n"
+"POT-Creation-Date: 2023-03-22 01:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1290,11 +1290,11 @@ msgctxt "GUI|Custom Partitioning|Confirm Delete Dialog"
 msgid "Delete _all file systems which are only used by {}."
 msgstr ""
 
-#: pyanaconda/modules/payloads/payload/rpm_ostree/installation.py:537
+#: pyanaconda/modules/payloads/payload/rpm_ostree/installation.py:615
 msgid "Deployment complete: {}"
 msgstr ""
 
-#: pyanaconda/modules/payloads/payload/rpm_ostree/installation.py:504
+#: pyanaconda/modules/payloads/payload/rpm_ostree/installation.py:564
 msgid "Deployment starting: {}"
 msgstr ""
 
@@ -1873,7 +1873,7 @@ msgstr ""
 msgid "Full name can't contain the ':' character"
 msgstr ""
 
-#: pyanaconda/input_checking.py:548
+#: pyanaconda/input_checking.py:550
 msgid "Full name cannot contain colon characters"
 msgstr ""
 
@@ -3246,7 +3246,7 @@ msgstr ""
 msgid "Ports"
 msgstr ""
 
-#: pyanaconda/modules/payloads/payload/rpm_ostree/installation.py:610
+#: pyanaconda/modules/payloads/payload/rpm_ostree/installation.py:688
 msgid "Preparing deployment of {}"
 msgstr ""
 
@@ -3440,11 +3440,15 @@ msgstr ""
 msgid "RPM OSTree"
 msgstr ""
 
+#: pyanaconda/modules/payloads/source/rpm_ostree_container/rpm_ostree_container.py:49
+msgid "RPM OSTree Container"
+msgstr ""
+
 #: pyanaconda/rescue.py:309
 msgid "Read-only mount"
 msgstr ""
 
-#: pyanaconda/modules/payloads/payload/rpm_ostree/installation.py:638
+#: pyanaconda/modules/payloads/payload/rpm_ostree/installation.py:716
 #, python-brace-format
 msgid "Receiving objects: {percent}% ({fetched}/{requested}) {bytes}"
 msgstr ""
@@ -4108,7 +4112,7 @@ msgstr ""
 msgid "Starting package installation process"
 msgstr ""
 
-#: pyanaconda/modules/payloads/payload/rpm_ostree/installation.py:572
+#: pyanaconda/modules/payloads/payload/rpm_ostree/installation.py:650
 #, python-brace-format
 msgid "Starting pull of {branch_name} from {source}"
 msgstr ""
@@ -5320,7 +5324,7 @@ msgstr ""
 msgid "Writing network configuration"
 msgstr ""
 
-#: pyanaconda/modules/payloads/payload/rpm_ostree/installation.py:644
+#: pyanaconda/modules/payloads/payload/rpm_ostree/installation.py:722
 msgid "Writing objects"
 msgstr ""
 
