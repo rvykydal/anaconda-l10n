@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.6)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.6\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-22 01:22+0000\n"
+"POT-Creation-Date: 2023-03-23 01:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.6)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.6\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-22 01:22+0000\n"
+"POT-Creation-Date: 2023-03-23 01:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.6)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.6\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-22 01:21+0000\n"
+"POT-Creation-Date: 2023-03-23 01:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1488,11 +1488,11 @@ msgstr ""
 msgid "Do you really want to quit?"
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:537
+#: pyanaconda/payload/dnf/payload.py:517
 msgid "Downloading group metadata..."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:528
+#: pyanaconda/payload/dnf/payload.py:508
 msgid "Downloading package metadata..."
 msgstr ""
 
@@ -2762,7 +2762,7 @@ msgstr ""
 msgid "No additional software to select."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:542
+#: pyanaconda/payload/dnf/payload.py:522
 msgid "No base repository is configured."
 msgstr ""
 
@@ -4108,7 +4108,7 @@ msgstr ""
 msgid "Starting automated install"
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:461
+#: pyanaconda/payload/dnf/payload.py:441
 msgid "Starting package installation process"
 msgstr ""
 
@@ -4261,13 +4261,13 @@ msgid ""
 "system when running low on memory."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:386
+#: pyanaconda/payload/dnf/payload.py:366
 #, python-brace-format
 msgid ""
 "The '{repository_name}' repository has no mirror, baseurl or metalink set."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:434
+#: pyanaconda/payload/dnf/payload.py:414
 #, python-brace-format
 msgid "The '{repository_name}' repository uses an unsupported protocol."
 msgstr ""
@@ -6869,11 +6869,11 @@ msgstr ""
 msgid "Checking disks"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:312
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:308
 msgid "Choose a language"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:321
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:317
 msgid "Chosen language: "
 msgstr ""
 
@@ -6916,7 +6916,7 @@ msgid ""
 "may take a few moments."
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:281
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:280
 msgid "Find a language"
 msgstr ""
 
@@ -7133,7 +7133,7 @@ msgstr ""
 msgid "Welcome to Fedora!"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:308
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:304
 msgid "Welcome to the Anaconda installer"
 msgstr ""
 
