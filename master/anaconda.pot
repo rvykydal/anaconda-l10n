@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.6)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.6\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-23 01:22+0000\n"
+"POT-Creation-Date: 2023-03-24 01:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.6)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.6\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-23 01:22+0000\n"
+"POT-Creation-Date: 2023-03-24 01:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.6)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.6\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-23 01:20+0000\n"
+"POT-Creation-Date: 2023-03-24 01:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1382,7 +1382,7 @@ msgstr ""
 msgid "Device:"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:558
+#: pyanaconda/ui/gui/spokes/installation_source.py:562
 #, python-format
 msgid "Device: %s"
 msgstr ""
@@ -1488,11 +1488,11 @@ msgstr ""
 msgid "Do you really want to quit?"
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:517
+#: pyanaconda/payload/dnf/payload.py:528
 msgid "Downloading group metadata..."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:508
+#: pyanaconda/payload/dnf/payload.py:519
 msgid "Downloading package metadata..."
 msgstr ""
 
@@ -1672,7 +1672,7 @@ msgstr ""
 msgid "Error setting up repositories"
 msgstr ""
 
-#: pyanaconda/modules/storage/devicetree/utils.py:77
+#: pyanaconda/modules/storage/devicetree/utils.py:79
 msgid "Escrow certificate {} requires the network."
 msgstr ""
 
@@ -1736,7 +1736,7 @@ msgstr ""
 msgid "Failed to set up installation source; check the NFS configuration."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:452
+#: pyanaconda/ui/gui/spokes/installation_source.py:456
 msgid "Failed to set up installation sources; check their configurations."
 msgstr ""
 
@@ -2265,13 +2265,13 @@ msgstr ""
 msgid "Interface"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:801
+#: pyanaconda/ui/gui/spokes/installation_source.py:808
 msgid ""
 "Invalid NFS server, exactly one colon ':' must be present between host and "
 "directory"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:788
+#: pyanaconda/ui/gui/spokes/installation_source.py:795
 #: pyanaconda/ui/gui/spokes/lib/installation_source_helpers.py:256
 msgid "Invalid URL"
 msgstr ""
@@ -2288,7 +2288,7 @@ msgstr ""
 msgid "Invalid group name."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:809
+#: pyanaconda/ui/gui/spokes/installation_source.py:816
 msgid "Invalid host name"
 msgstr ""
 
@@ -2408,7 +2408,7 @@ msgstr ""
 msgid "Label:"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:559
+#: pyanaconda/ui/gui/spokes/installation_source.py:563
 #, python-format
 msgid "Label: %s"
 msgstr ""
@@ -2608,15 +2608,15 @@ msgstr ""
 msgid "NETWORK CONFIGURATION"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:343
+#: pyanaconda/ui/tui/spokes/installation_source.py:346
 msgid "NFS mount options"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:797
+#: pyanaconda/ui/gui/spokes/installation_source.py:804
 msgid "NFS server is empty"
 msgstr ""
 
-#: pyanaconda/modules/payloads/source/nfs/nfs.py:73
+#: pyanaconda/modules/payloads/source/nfs/nfs.py:69
 msgid "NFS server {}"
 msgstr ""
 
@@ -2750,7 +2750,7 @@ msgstr ""
 msgid "New {name} {version} Installation"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:485
+#: pyanaconda/ui/tui/spokes/installation_source.py:488
 msgid "No *.iso files found in device root folder"
 msgstr ""
 
@@ -2762,7 +2762,7 @@ msgstr ""
 msgid "No additional software to select."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:522
+#: pyanaconda/payload/dnf/payload.py:533
 msgid "No base repository is configured."
 msgstr ""
 
@@ -2823,7 +2823,7 @@ msgstr ""
 msgid "No match found for given boot drive \"{}\"."
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:440
+#: pyanaconda/ui/tui/spokes/installation_source.py:443
 msgid "No mountable devices found"
 msgstr ""
 
@@ -3309,7 +3309,7 @@ msgstr ""
 msgid "Progress"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:794
+#: pyanaconda/ui/gui/spokes/installation_source.py:801
 msgid "Protocol in URL does not match selected protocol"
 msgstr ""
 
@@ -3548,7 +3548,7 @@ msgstr ""
 msgid "Reload storage configuration from disk."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:812
+#: pyanaconda/ui/gui/spokes/installation_source.py:819
 msgid "Remote directory is required"
 msgstr ""
 
@@ -3713,7 +3713,7 @@ msgstr ""
 msgid "SELECTED DISKS AND BOOT LOADER"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:339
+#: pyanaconda/ui/tui/spokes/installation_source.py:342
 msgid "SERVER:/PATH"
 msgstr ""
 
@@ -3741,7 +3741,7 @@ msgstr ""
 msgid "SPOKE NAME"
 msgstr ""
 
-#: pyanaconda/modules/storage/devicetree/utils.py:87
+#: pyanaconda/modules/storage/devicetree/utils.py:89
 msgid ""
 "SSL error while downloading the escrow certificate:\n"
 "\n"
@@ -3837,7 +3837,7 @@ msgid ""
 "Select all of the drives you would like the mount point to be created on."
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:469
+#: pyanaconda/ui/tui/spokes/installation_source.py:472
 msgid "Select an ISO to use as install source"
 msgstr ""
 
@@ -3845,7 +3845,7 @@ msgstr ""
 msgid "Select an NTP server to remove"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:397
+#: pyanaconda/ui/tui/spokes/installation_source.py:400
 msgid "Select device containing the ISO file"
 msgstr ""
 
@@ -3880,7 +3880,7 @@ msgstr ""
 msgid "Selected environment is not valid"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/installation_source.py:353
+#: pyanaconda/ui/tui/spokes/installation_source.py:356
 msgid "Server must be specified as SERVER:/PATH"
 msgstr ""
 
@@ -4108,7 +4108,7 @@ msgstr ""
 msgid "Starting automated install"
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:441
+#: pyanaconda/payload/dnf/payload.py:452
 msgid "Starting package installation process"
 msgstr ""
 
@@ -4261,13 +4261,13 @@ msgid ""
 "system when running low on memory."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:366
+#: pyanaconda/payload/dnf/payload.py:377
 #, python-brace-format
 msgid ""
 "The '{repository_name}' repository has no mirror, baseurl or metalink set."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:414
+#: pyanaconda/payload/dnf/payload.py:420
 #, python-brace-format
 msgid "The '{repository_name}' repository uses an unsupported protocol."
 msgstr ""
@@ -4401,7 +4401,7 @@ msgid ""
 "error and installation will be aborted."
 msgstr ""
 
-#: pyanaconda/modules/storage/devicetree/utils.py:91
+#: pyanaconda/modules/storage/devicetree/utils.py:93
 msgid ""
 "The following error was encountered while downloading the escrow "
 "certificate:\n"
@@ -4839,7 +4839,7 @@ msgstr ""
 msgid "URL has no host component"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:784
+#: pyanaconda/ui/gui/spokes/installation_source.py:791
 msgid "URL is empty"
 msgstr ""
 
@@ -5462,7 +5462,7 @@ msgstr ""
 msgid "You must set a password"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/installation_source.py:717
+#: pyanaconda/ui/gui/spokes/installation_source.py:724
 msgid "You need to configure the network to use a network installation source."
 msgstr ""
 
