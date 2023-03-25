@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.6)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.6\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-24 01:23+0000\n"
+"POT-Creation-Date: 2023-03-25 01:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.6)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.6\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-24 01:23+0000\n"
+"POT-Creation-Date: 2023-03-25 01:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.6)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.6\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-03-24 01:21+0000\n"
+"POT-Creation-Date: 2023-03-25 01:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1014,7 +1014,7 @@ msgstr ""
 msgid "Checking software dependencies..."
 msgstr ""
 
-#: pyanaconda/ui/lib/storage.py:326
+#: pyanaconda/ui/lib/storage.py:298
 msgid "Checking storage configuration..."
 msgstr ""
 
@@ -1488,11 +1488,11 @@ msgstr ""
 msgid "Do you really want to quit?"
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:528
+#: pyanaconda/payload/dnf/payload.py:565
 msgid "Downloading group metadata..."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:519
+#: pyanaconda/payload/dnf/payload.py:556
 msgid "Downloading package metadata..."
 msgstr ""
 
@@ -1724,11 +1724,11 @@ msgstr ""
 msgid "Failed to proceed with the installation."
 msgstr ""
 
-#: pyanaconda/ui/lib/storage.py:322
+#: pyanaconda/ui/lib/storage.py:294
 msgid "Failed to save boot loader configuration"
 msgstr ""
 
-#: pyanaconda/ui/lib/storage.py:317
+#: pyanaconda/ui/lib/storage.py:289
 msgid "Failed to save storage configuration"
 msgstr ""
 
@@ -2762,7 +2762,7 @@ msgstr ""
 msgid "No additional software to select."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:533
+#: pyanaconda/payload/dnf/payload.py:570
 msgid "No base repository is configured."
 msgstr ""
 
@@ -3534,7 +3534,7 @@ msgstr ""
 msgid "Registering..."
 msgstr ""
 
-#: pyanaconda/ui/lib/subscription.py:299
+#: pyanaconda/ui/lib/subscription.py:284
 msgid "Registration failed due to insufficient credentials."
 msgstr ""
 
@@ -3761,7 +3761,7 @@ msgstr ""
 msgid "SYSTEM PURPOSE"
 msgstr ""
 
-#: pyanaconda/ui/lib/storage.py:312
+#: pyanaconda/ui/lib/storage.py:284
 msgid "Saving storage configuration..."
 msgstr ""
 
@@ -4108,7 +4108,7 @@ msgstr ""
 msgid "Starting automated install"
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:452
+#: pyanaconda/payload/dnf/payload.py:489
 msgid "Starting package installation process"
 msgstr ""
 
@@ -4261,13 +4261,13 @@ msgid ""
 "system when running low on memory."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:377
+#: pyanaconda/payload/dnf/payload.py:414
 #, python-brace-format
 msgid ""
 "The '{repository_name}' repository has no mirror, baseurl or metalink set."
 msgstr ""
 
-#: pyanaconda/payload/dnf/payload.py:420
+#: pyanaconda/payload/dnf/payload.py:457
 #, python-brace-format
 msgid "The '{repository_name}' repository uses an unsupported protocol."
 msgstr ""
