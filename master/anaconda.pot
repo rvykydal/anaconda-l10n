@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.10)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.10\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-04-13 01:19+0000\n"
+"POT-Creation-Date: 2023-04-14 01:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.10)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.10\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-04-13 01:19+0000\n"
+"POT-Creation-Date: 2023-04-14 01:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.10)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.10\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-04-13 01:17+0000\n"
+"POT-Creation-Date: 2023-04-14 01:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -323,8 +323,8 @@ msgid "%s must be on a primary partition."
 msgstr ""
 
 #: pyanaconda/ui/tui/spokes/time_spoke.py:126
-#: pyanaconda/ui/gui/spokes/datetime_spoke.py:335
-#: pyanaconda/ui/gui/spokes/datetime_spoke.py:341
+#: pyanaconda/ui/gui/spokes/datetime_spoke.py:330
+#: pyanaconda/ui/gui/spokes/datetime_spoke.py:336
 #, python-format
 msgid "%s timezone"
 msgstr ""
@@ -461,10 +461,10 @@ msgstr ""
 msgid "ADVANCED USER CONFIGURATION"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/datetime_spoke.py:522
-#: pyanaconda/ui/gui/spokes/datetime_spoke.py:531
-#: pyanaconda/ui/gui/spokes/datetime_spoke.py:718
-#: pyanaconda/ui/gui/spokes/datetime_spoke.py:721
+#: pyanaconda/ui/gui/spokes/datetime_spoke.py:520
+#: pyanaconda/ui/gui/spokes/datetime_spoke.py:529
+#: pyanaconda/ui/gui/spokes/datetime_spoke.py:716
+#: pyanaconda/ui/gui/spokes/datetime_spoke.py:719
 msgid "AM"
 msgstr ""
 
@@ -531,11 +531,11 @@ msgstr ""
 msgid "Add Layout"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/time_spoke.py:335
+#: pyanaconda/ui/tui/spokes/time_spoke.py:338
 msgid "Add NTP server"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/time_spoke.py:380
+#: pyanaconda/ui/tui/spokes/time_spoke.py:383
 msgid "Add NTP server address"
 msgstr ""
 
@@ -1604,7 +1604,7 @@ msgstr ""
 msgid "Enter a new value for '%(title)s' and press %(enter)s"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/time_spoke.py:396
+#: pyanaconda/ui/tui/spokes/time_spoke.py:399
 #, python-format
 msgid "Enter an NTP server address and press %s"
 msgstr ""
@@ -2330,11 +2330,11 @@ msgstr ""
 msgid "Invalid server"
 msgstr ""
 
-#: pyanaconda/modules/timezone/timezone.py:105
+#: pyanaconda/modules/timezone/timezone.py:107
 msgid "Invalid time source."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/datetime_spoke.py:337
+#: pyanaconda/ui/gui/spokes/datetime_spoke.py:332
 msgid "Invalid timezone"
 msgstr ""
 
@@ -2626,7 +2626,7 @@ msgstr ""
 msgid "NIC \"{}\" given in fcoe command does not exist."
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/time_spoke.py:315
+#: pyanaconda/ui/tui/spokes/time_spoke.py:318
 msgid "NTP configuration"
 msgstr ""
 
@@ -2939,7 +2939,7 @@ msgid ""
 "click on the main menu's 'Begin Installation' button."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/datetime_spoke.py:343
+#: pyanaconda/ui/gui/spokes/datetime_spoke.py:338
 msgid "Nothing selected"
 msgstr ""
 
@@ -2994,9 +2994,9 @@ msgstr ""
 msgid "Other ({})"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/datetime_spoke.py:520
-#: pyanaconda/ui/gui/spokes/datetime_spoke.py:534
-#: pyanaconda/ui/gui/spokes/datetime_spoke.py:719
+#: pyanaconda/ui/gui/spokes/datetime_spoke.py:518
+#: pyanaconda/ui/gui/spokes/datetime_spoke.py:532
+#: pyanaconda/ui/gui/spokes/datetime_spoke.py:717
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade:520
 msgid "PM"
 msgstr ""
@@ -3568,7 +3568,7 @@ msgctxt "GUI|Custom Partitioning"
 msgid "Remove"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/time_spoke.py:339
+#: pyanaconda/ui/tui/spokes/time_spoke.py:342
 msgid "Remove NTP server"
 msgstr ""
 
@@ -3623,7 +3623,7 @@ msgctxt "GUI|Software Source"
 msgid "Rese_t"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/datetime_spoke.py:321
+#: pyanaconda/ui/gui/spokes/datetime_spoke.py:316
 msgid "Restoring hardware time..."
 msgstr ""
 
@@ -3848,7 +3848,7 @@ msgstr ""
 msgid "Select an ISO to use as install source"
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/time_spoke.py:431
+#: pyanaconda/ui/tui/spokes/time_spoke.py:434
 msgid "Select an NTP server to remove"
 msgstr ""
 
@@ -4827,7 +4827,7 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/welcome.py:210
+#: pyanaconda/ui/gui/spokes/welcome.py:211
 #: pyanaconda/ui/gui/spokes/welcome.glade:206
 #: pyanaconda/ui/gui/spokes/language_support.glade:186
 msgid "Type here to search."
@@ -5114,7 +5114,7 @@ msgstr ""
 msgid "WELCOME"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/welcome.py:205
+#: pyanaconda/ui/gui/spokes/welcome.py:206
 #, python-format
 msgid "WELCOME TO %(name)s %(version)s."
 msgstr ""
@@ -5237,7 +5237,7 @@ msgstr ""
 msgid "Welcome to Fedora"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/welcome.py:199
+#: pyanaconda/ui/gui/spokes/welcome.py:200
 #: pyanaconda/ui/gui/spokes/welcome.glade:101
 msgid "What language would you like to use during the installation process?"
 msgstr ""
@@ -5373,7 +5373,7 @@ msgid ""
 "bootable."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/datetime_spoke.py:900
+#: pyanaconda/ui/gui/spokes/datetime_spoke.py:898
 msgid "You have no working NTP server configured"
 msgstr ""
 
@@ -5474,7 +5474,7 @@ msgstr ""
 msgid "You need to configure the network to use a network installation source."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/datetime_spoke.py:896
+#: pyanaconda/ui/gui/spokes/datetime_spoke.py:894
 msgid "You need to set up networking first if you want to use NTP"
 msgstr ""
 
@@ -6934,11 +6934,11 @@ msgstr ""
 msgid "Erasing the disks cannot be undone."
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:128
+#: ui/webui/src/components/installation/InstallationProgress.jsx:126
 msgid "Finalization"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:130
+#: ui/webui/src/components/installation/InstallationProgress.jsx:128
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -7138,22 +7138,22 @@ msgstr ""
 msgid "Show password"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:118
+#: ui/webui/src/components/installation/InstallationProgress.jsx:116
 msgid "Software installation"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:120
+#: ui/webui/src/components/installation/InstallationProgress.jsx:118
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:113
+#: ui/webui/src/components/installation/InstallationProgress.jsx:111
 #: ui/webui/src/components/AnacondaWizard.jsx:67
 msgid "Storage configuration"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:115
+#: ui/webui/src/components/installation/InstallationProgress.jsx:113
 msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 
@@ -7165,11 +7165,11 @@ msgstr ""
 msgid "Storage options"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:123
+#: ui/webui/src/components/installation/InstallationProgress.jsx:121
 msgid "System configuration"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:125
+#: ui/webui/src/components/installation/InstallationProgress.jsx:123
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
