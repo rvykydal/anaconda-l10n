@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.11)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.11\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-04-20 01:19+0000\n"
+"POT-Creation-Date: 2023-04-21 01:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.11)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.11\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-04-20 01:19+0000\n"
+"POT-Creation-Date: 2023-04-21 01:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.11)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.11\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-04-20 01:17+0000\n"
+"POT-Creation-Date: 2023-04-21 01:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6918,7 +6918,7 @@ msgstr ""
 msgid "Encrypt the selected devices?"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:149
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:148
 msgid "Erase devices and install"
 msgstr ""
 
@@ -7047,8 +7047,8 @@ msgstr ""
 msgid "Not Now"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:120
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:136
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:119
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:135
 msgid "Not enough space on selected disks."
 msgstr ""
 
@@ -7067,11 +7067,11 @@ msgstr ""
 msgid "Pending"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:188
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:187
 msgid "Pre-defined scenarios of the selected disks partitioning."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:194
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:193
 msgid "Pre-defined storage label info"
 msgstr ""
 
@@ -7190,14 +7190,14 @@ msgid ""
 "want to continue with the installation?"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:138
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:137
 msgid ""
 "There is not enough free space on the selected disks. The installation "
 "requires $1 of available space while there is only $0 of free space "
 "available."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:122
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:121
 msgid ""
 "There is not enough space on the selected disks. The installation requires "
 "$1 of available space while there is only $0 of space available."
@@ -7217,7 +7217,7 @@ msgstr ""
 msgid "This may take a moment"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:175
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:174
 msgid "This option is disabled"
 msgstr ""
 
@@ -7227,11 +7227,11 @@ msgid ""
 "backups."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:142
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:141
 msgid "To enable free up disk space"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:126
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:125
 msgid "To enable select bigger disks"
 msgstr ""
 
@@ -7243,7 +7243,7 @@ msgstr ""
 msgid "Total"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:157
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:156
 msgid "Use free space for the installation"
 msgstr ""
 
