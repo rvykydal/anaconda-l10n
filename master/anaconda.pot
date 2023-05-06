@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.13)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.13\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-05 01:14+0000\n"
+"POT-Creation-Date: 2023-05-06 01:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.13)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.13\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-05 01:14+0000\n"
+"POT-Creation-Date: 2023-05-06 01:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.13)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.13\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-05 01:13+0000\n"
+"POT-Creation-Date: 2023-05-06 01:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6870,7 +6870,7 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaHeader.jsx:47
+#: ui/webui/src/components/AnacondaHeader.jsx:46
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
 "associated with pre-released software, that you intend to use this for "
@@ -6965,7 +6965,7 @@ msgstr ""
 msgid "Hide password"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaHeader.jsx:50
+#: ui/webui/src/components/AnacondaHeader.jsx:49
 msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr ""
@@ -7061,7 +7061,7 @@ msgstr ""
 msgid "Not enough space on selected disks."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaHeader.jsx:44
+#: ui/webui/src/components/AnacondaHeader.jsx:43
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
 "testing purposes only. Do NOT use this software for any critical work or for "
@@ -7084,7 +7084,7 @@ msgstr ""
 msgid "Pre-defined storage label info"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaHeader.jsx:32
+#: ui/webui/src/components/AnacondaHeader.jsx:33
 msgid "Pre-release"
 msgstr ""
 
@@ -7223,7 +7223,7 @@ msgid ""
 "$1 of available space while there is only $0 of space available."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaHeader.jsx:38
+#: ui/webui/src/components/AnacondaHeader.jsx:37
 msgid "This is unstable, pre-release software"
 msgstr ""
 
