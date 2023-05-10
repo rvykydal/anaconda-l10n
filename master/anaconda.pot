@@ -6,10 +6,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  main.pot (anaconda 39.13)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.13\n"
+"#-#-#-#-#  main.pot (anaconda 39.14)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.14\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-09 01:21+0000\n"
+"POT-Creation-Date: 2023-05-10 01:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"#-#-#-#-#  main_js.pot (anaconda 39.13)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.13\n"
+"#-#-#-#-#  main_js.pot (anaconda 39.14)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.14\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-09 01:21+0000\n"
+"POT-Creation-Date: 2023-05-10 01:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,10 +30,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"#-#-#-#-#  extra.pot (anaconda 39.13)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.13\n"
+"#-#-#-#-#  extra.pot (anaconda 39.14)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.14\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-09 01:20+0000\n"
+"POT-Creation-Date: 2023-05-10 01:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6882,15 +6882,15 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:308
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:310
 msgid "Choose a language"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:317
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:319
 msgid "Chosen language: "
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:175
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:176
 msgid "Common languages"
 msgstr ""
 
@@ -6953,7 +6953,7 @@ msgid ""
 "may take a few moments."
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:280
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:282
 msgid "Find a language"
 msgstr ""
 
@@ -7048,7 +7048,7 @@ msgstr ""
 msgid "No additional disks detected"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:218
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:220
 msgid "No results found"
 msgstr ""
 
@@ -7289,7 +7289,7 @@ msgstr ""
 msgid "Welcome to Fedora!"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:304
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:306
 msgid "Welcome to the Anaconda installer"
 msgstr ""
 
@@ -7300,7 +7300,7 @@ msgstr ""
 #: ui/webui/src/components/storage/DiskEncryption.jsx:305
 msgid ""
 "You can create encrypted devices during installation. This allows you to "
-"easily configure a system with ecrypted partitions. To enable block device "
+"easily configure a system with encrypted partitions. To enable block device "
 "encryption, check the \"Encrypt System\" checkbox"
 msgstr ""
 
