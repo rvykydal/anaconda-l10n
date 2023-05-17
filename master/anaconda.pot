@@ -6,10 +6,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  main.pot (anaconda 39.14)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.14\n"
+"#-#-#-#-#  main.pot (anaconda 39.15)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.15\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-16 01:22+0000\n"
+"POT-Creation-Date: 2023-05-17 01:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"#-#-#-#-#  main_js.pot (anaconda 39.14)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.14\n"
+"#-#-#-#-#  main_js.pot (anaconda 39.15)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.15\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-16 01:22+0000\n"
+"POT-Creation-Date: 2023-05-17 01:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,10 +30,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"#-#-#-#-#  extra.pot (anaconda 39.14)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.14\n"
+"#-#-#-#-#  extra.pot (anaconda 39.15)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.15\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-16 01:21+0000\n"
+"POT-Creation-Date: 2023-05-17 01:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,7 +79,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: pyanaconda/kickstart.py:383
+#: pyanaconda/kickstart.py:374
 #, python-format
 msgid ""
 "\n"
@@ -107,7 +107,7 @@ msgid ""
 "The installer will now terminate."
 msgstr ""
 
-#: pyanaconda/kickstart.py:370
+#: pyanaconda/kickstart.py:361
 msgid ""
 "\n"
 "Some warnings occurred during reading the kickstart file:"
@@ -3707,7 +3707,7 @@ msgstr ""
 msgid "Running post-installation scripts"
 msgstr ""
 
-#: pyanaconda/kickstart.py:427 pyanaconda/installation.py:357
+#: pyanaconda/kickstart.py:418 pyanaconda/installation.py:357
 msgid "Running pre-installation scripts"
 msgstr ""
 
