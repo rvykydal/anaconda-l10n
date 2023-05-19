@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.15)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.15\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-18 01:21+0000\n"
+"POT-Creation-Date: 2023-05-19 01:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.15)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.15\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-18 01:21+0000\n"
+"POT-Creation-Date: 2023-05-19 01:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.15)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.15\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-18 01:20+0000\n"
+"POT-Creation-Date: 2023-05-19 01:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7053,8 +7053,11 @@ msgstr ""
 msgid "Not Now"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:118
 #: ui/webui/src/components/storage/StorageConfiguration.jsx:134
+msgid "Not enough free space."
+msgstr ""
+
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:118
 msgid "Not enough space on selected disks."
 msgstr ""
 
@@ -7209,15 +7212,15 @@ msgstr ""
 
 #: ui/webui/src/components/storage/StorageConfiguration.jsx:136
 msgid ""
-"There is not enough free space on the selected disks. The installation "
-"requires $1 of available space while there is only $0 of free space "
-"available."
+"There is not enough available free space to install. The installation needs "
+"$1 of available disk space; however, only $0 is currently available on the "
+"selected disks."
 msgstr ""
 
 #: ui/webui/src/components/storage/StorageConfiguration.jsx:120
 msgid ""
-"There is not enough space on the selected disks. The installation requires "
-"$1 of available space while there is only $0 of space available."
+"There is not enough space on the disks to install. The installation needs $1 "
+"of disk space; however, the capacity of the selected disks is only $0."
 msgstr ""
 
 #: ui/webui/src/components/AnacondaHeader.jsx:37
@@ -7232,10 +7235,6 @@ msgstr ""
 
 #: ui/webui/src/components/storage/DiskEncryption.jsx:217
 msgid "This may take a moment"
-msgstr ""
-
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:200
-msgid "This option is disabled"
 msgstr ""
 
 #: ui/webui/src/components/storage/HelpAutopartOptions.jsx:20
