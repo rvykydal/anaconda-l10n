@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.16)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.16\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-24 01:24+0000\n"
+"POT-Creation-Date: 2023-05-25 01:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.16)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.16\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-24 01:24+0000\n"
+"POT-Creation-Date: 2023-05-25 01:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.16)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.16\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-24 01:23+0000\n"
+"POT-Creation-Date: 2023-05-25 01:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6994,7 +6994,7 @@ msgstr ""
 msgid "Install on the free space?"
 msgstr ""
 
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:117
+#: ui/webui/src/components/review/ReviewConfiguration.jsx:126
 #: ui/webui/src/components/AnacondaWizard.jsx:61
 msgid "Installation destination"
 msgstr ""
@@ -7007,7 +7007,7 @@ msgstr ""
 msgid "Installing"
 msgstr ""
 
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:109
+#: ui/webui/src/components/review/ReviewConfiguration.jsx:118
 msgid "Language"
 msgstr ""
 
@@ -7255,7 +7255,7 @@ msgstr ""
 msgid "To enable select bigger disks"
 msgstr ""
 
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:122
+#: ui/webui/src/components/review/ReviewConfiguration.jsx:109
 msgid "To prevent loss, make sure to backup your data. "
 msgstr ""
 
