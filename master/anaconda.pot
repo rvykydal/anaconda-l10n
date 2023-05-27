@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.16)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.16\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-26 01:21+0000\n"
+"POT-Creation-Date: 2023-05-27 01:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.16)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.16\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-26 01:21+0000\n"
+"POT-Creation-Date: 2023-05-27 01:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.16)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.16\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-26 01:21+0000\n"
+"POT-Creation-Date: 2023-05-27 01:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,7 +42,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: pyanaconda/vnc.py:270
+#: pyanaconda/vnc.py:271
 msgid ""
 "\n"
 "\n"
@@ -50,7 +50,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: pyanaconda/vnc.py:264
+#: pyanaconda/vnc.py:265
 msgid ""
 "\n"
 "\n"
@@ -60,7 +60,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: pyanaconda/vnc.py:259
+#: pyanaconda/vnc.py:260
 msgid ""
 "\n"
 "\n"
@@ -71,7 +71,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: pyanaconda/vnc.py:268
+#: pyanaconda/vnc.py:269
 msgid ""
 "\n"
 "\n"
@@ -79,7 +79,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: pyanaconda/kickstart.py:374
+#: pyanaconda/kickstart.py:373
 #, python-format
 msgid ""
 "\n"
@@ -107,7 +107,7 @@ msgid ""
 "The installer will now terminate."
 msgstr ""
 
-#: pyanaconda/kickstart.py:361
+#: pyanaconda/kickstart.py:360
 msgid ""
 "\n"
 "Some warnings occurred during reading the kickstart file:"
@@ -250,12 +250,12 @@ msgstr ""
 msgid "%(productName)s %(productVersion)s INSTALLATION"
 msgstr ""
 
-#: pyanaconda/vnc.py:78
+#: pyanaconda/vnc.py:79
 #, python-format
 msgid "%(productName)s %(productVersion)s installation"
 msgstr ""
 
-#: pyanaconda/vnc.py:147
+#: pyanaconda/vnc.py:148
 #, python-format
 msgid "%(productName)s %(productVersion)s installation on host %(name)s"
 msgstr ""
@@ -707,12 +707,12 @@ msgstr ""
 msgid "Attaching subscription..."
 msgstr ""
 
-#: pyanaconda/vnc.py:166
+#: pyanaconda/vnc.py:167
 #, python-format
 msgid "Attempting to connect to vnc client on host %s..."
 msgstr ""
 
-#: pyanaconda/vnc.py:198
+#: pyanaconda/vnc.py:199
 msgid "Attempting to start vncconfig"
 msgstr ""
 
@@ -748,7 +748,7 @@ msgid "Automatic partitioning failed."
 msgstr ""
 
 #: pyanaconda/ui/tui/spokes/storage.py:149
-#: pyanaconda/ui/gui/spokes/storage.py:300
+#: pyanaconda/ui/gui/spokes/storage.py:302
 msgid "Automatic partitioning selected"
 msgstr ""
 
@@ -835,7 +835,7 @@ msgstr ""
 msgid "Bridge %(interface_name)s (%(list_of_ports)s) connected"
 msgstr ""
 
-#: pyanaconda/core/storage.py:88 pyanaconda/core/storage.py:95
+#: pyanaconda/core/storage.py:87 pyanaconda/core/storage.py:94
 msgid "Btrfs"
 msgstr ""
 
@@ -1131,7 +1131,7 @@ msgstr ""
 msgid "Connected to Red Hat Insights"
 msgstr ""
 
-#: pyanaconda/vnc.py:180
+#: pyanaconda/vnc.py:181
 msgid "Connected!"
 msgstr ""
 
@@ -1221,7 +1221,7 @@ msgid "Custom base URL"
 msgstr ""
 
 #: pyanaconda/ui/tui/spokes/storage.py:151
-#: pyanaconda/ui/gui/spokes/storage.py:302
+#: pyanaconda/ui/gui/spokes/storage.py:304
 msgid "Custom partitioning selected"
 msgstr ""
 
@@ -1432,7 +1432,7 @@ msgstr ""
 msgid "Discovery login rejected."
 msgstr ""
 
-#: pyanaconda/core/storage.py:90 pyanaconda/ui/gui/spokes/lib/resize.glade:150
+#: pyanaconda/core/storage.py:89 pyanaconda/ui/gui/spokes/lib/resize.glade:150
 msgid "Disk"
 msgstr ""
 
@@ -1642,11 +1642,11 @@ msgid "Error checking software selection"
 msgstr ""
 
 #: pyanaconda/ui/tui/spokes/storage.py:145
-#: pyanaconda/ui/gui/spokes/storage.py:296
+#: pyanaconda/ui/gui/spokes/storage.py:298
 msgid "Error checking storage configuration"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:423
+#: pyanaconda/ui/gui/spokes/storage.py:425
 msgid ""
 "Error checking storage configuration.  <a href=\"\">Click for details.</a>"
 msgstr ""
@@ -1691,7 +1691,7 @@ msgstr ""
 msgid "Extra characters in proxy URL"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:460
+#: pyanaconda/ui/gui/spokes/storage.py:462
 #, python-brace-format
 msgid ""
 "FCP device {hba_id}\n"
@@ -1918,7 +1918,7 @@ msgstr ""
 msgid "Getting list of layouts..."
 msgstr ""
 
-#: pyanaconda/vnc.py:190
+#: pyanaconda/vnc.py:191
 #, python-format
 msgid "Giving up attempting to connect after %d try!\n"
 msgid_plural "Giving up attempting to connect after %d tries!\n"
@@ -1968,7 +1968,7 @@ msgstr ""
 msgid "Hardware error occurred"
 msgstr ""
 
-#: pyanaconda/ui/gui/__init__.py:355 widgets/src/BaseWindow.c:151
+#: pyanaconda/ui/gui/__init__.py:358 widgets/src/BaseWindow.c:151
 msgid "Help!"
 msgstr ""
 
@@ -2366,7 +2366,7 @@ msgid ""
 msgstr ""
 
 #: pyanaconda/ui/tui/spokes/storage.py:141
-#: pyanaconda/ui/gui/spokes/storage.py:292
+#: pyanaconda/ui/gui/spokes/storage.py:294
 msgid "Kickstart insufficient"
 msgstr ""
 
@@ -2401,11 +2401,11 @@ msgstr ""
 msgid "LUN:"
 msgstr ""
 
-#: pyanaconda/core/storage.py:85 pyanaconda/core/storage.py:96
+#: pyanaconda/core/storage.py:84 pyanaconda/core/storage.py:95
 msgid "LVM"
 msgstr ""
 
-#: pyanaconda/core/storage.py:89 pyanaconda/core/storage.py:97
+#: pyanaconda/core/storage.py:88 pyanaconda/core/storage.py:96
 msgid "LVM Thin Provisioning"
 msgstr ""
 
@@ -2637,7 +2637,7 @@ msgstr ""
 msgid "NTP servers:"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:466
+#: pyanaconda/ui/gui/spokes/storage.py:468
 #, python-brace-format
 msgid "NVDIMM device {namespace}"
 msgstr ""
@@ -2796,7 +2796,7 @@ msgid ""
 msgstr ""
 
 #: pyanaconda/ui/tui/spokes/storage.py:143
-#: pyanaconda/ui/gui/spokes/storage.py:294
+#: pyanaconda/ui/gui/spokes/storage.py:296
 msgid "No disks selected"
 msgstr ""
 
@@ -3034,7 +3034,7 @@ msgstr ""
 msgid "Partitioning Options"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:214
+#: pyanaconda/ui/gui/spokes/storage.py:216
 msgid ""
 "Partitioning method changed - planned storage configuration changes will be "
 "cancelled."
@@ -3161,12 +3161,12 @@ msgstr ""
 msgid "Please enter a valid name."
 msgstr ""
 
-#: pyanaconda/vnc.py:211
+#: pyanaconda/vnc.py:212
 #, python-format
 msgid "Please manually connect your vnc client to %s to begin the install."
 msgstr ""
 
-#: pyanaconda/vnc.py:213
+#: pyanaconda/vnc.py:214
 #, python-format
 msgid ""
 "Please manually connect your vnc client to IP-ADDRESS:%s to begin the "
@@ -3311,7 +3311,7 @@ msgstr ""
 
 #: pyanaconda/ui/tui/spokes/storage.py:139
 #: pyanaconda/ui/tui/spokes/software_selection.py:156
-#: pyanaconda/ui/gui/spokes/storage.py:290
+#: pyanaconda/ui/gui/spokes/storage.py:292
 #: pyanaconda/ui/gui/spokes/software_selection.py:180
 msgid "Processing..."
 msgstr ""
@@ -3344,7 +3344,7 @@ msgstr ""
 msgid "Quit (Reboot)"
 msgstr ""
 
-#: pyanaconda/core/storage.py:86
+#: pyanaconda/core/storage.py:85
 msgid "RAID"
 msgstr ""
 
@@ -3707,7 +3707,7 @@ msgstr ""
 msgid "Running post-installation scripts"
 msgstr ""
 
-#: pyanaconda/kickstart.py:418 pyanaconda/installation.py:357
+#: pyanaconda/kickstart.py:417 pyanaconda/installation.py:357
 msgid "Running pre-installation scripts"
 msgstr ""
 
@@ -4090,7 +4090,7 @@ msgstr ""
 msgid "Speed"
 msgstr ""
 
-#: pyanaconda/core/storage.py:87 pyanaconda/core/storage.py:94
+#: pyanaconda/core/storage.py:86 pyanaconda/core/storage.py:93
 msgid "Standard Partition"
 msgstr ""
 
@@ -4111,7 +4111,7 @@ msgstr ""
 msgid "Start shell"
 msgstr ""
 
-#: pyanaconda/vnc.py:218
+#: pyanaconda/vnc.py:219
 msgid "Starting VNC..."
 msgstr ""
 
@@ -4246,25 +4246,25 @@ msgid ""
 "memory, but you only have %(total_ram)s MB.\n"
 msgstr ""
 
-#: pyanaconda/core/storage.py:110
+#: pyanaconda/core/storage.py:109
 msgid ""
 "The 'boot' area on your computer is where files needed\n"
 "to start the operating system are stored."
 msgstr ""
 
-#: pyanaconda/core/storage.py:114
+#: pyanaconda/core/storage.py:113
 msgid ""
 "The 'home' area on your computer is where all your personal\n"
 "data is stored."
 msgstr ""
 
-#: pyanaconda/core/storage.py:112
+#: pyanaconda/core/storage.py:111
 msgid ""
 "The 'root' area on your computer is where core system\n"
 "files and applications are stored."
 msgstr ""
 
-#: pyanaconda/core/storage.py:108
+#: pyanaconda/core/storage.py:107
 msgid ""
 "The 'swap' area on your computer is used by the operating\n"
 "system when running low on memory."
@@ -4288,7 +4288,7 @@ msgstr ""
 msgid "The '{}' repository is not one of the pre-defined repositories."
 msgstr ""
 
-#: pyanaconda/core/storage.py:116
+#: pyanaconda/core/storage.py:115
 msgid ""
 "The BIOS boot partition is required to enable booting\n"
 "from GPT-partitioned disks on BIOS hardware."
@@ -4301,7 +4301,7 @@ msgid ""
 "Please format it."
 msgstr ""
 
-#: pyanaconda/core/storage.py:118
+#: pyanaconda/core/storage.py:117
 msgid ""
 "The PReP boot partition is required as part of the\n"
 "boot loader configuration on some PPC platforms."
@@ -4318,7 +4318,7 @@ msgstr ""
 msgid "The RAID volume name \"{}\" is already in use."
 msgstr ""
 
-#: pyanaconda/vnc.py:255
+#: pyanaconda/vnc.py:256
 msgid "The VNC server is now running."
 msgstr ""
 
@@ -4421,13 +4421,13 @@ msgid ""
 "{}"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:890
+#: pyanaconda/ui/gui/spokes/storage.py:892
 msgid ""
 "The following errors were encountered when checking your disk selection. You "
 "can modify your selection or quit the installer."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:911
+#: pyanaconda/ui/gui/spokes/storage.py:913
 msgid ""
 "The following errors were encountered when checking your storage "
 "configuration.  You can modify your storage layout or quit the installer."
@@ -4477,7 +4477,7 @@ msgid ""
 "kernel config."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:931
+#: pyanaconda/ui/gui/spokes/storage.py:933
 msgid ""
 "The following warnings were encountered when checking your storage "
 "configuration.  These are not fatal, but you may wish to make changes to "
@@ -4674,7 +4674,7 @@ msgid ""
 "{mount_point} is {fstab_type}."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:786
+#: pyanaconda/ui/gui/spokes/storage.py:788
 msgid "There was a problem with your disk selection. Click here for details."
 msgstr ""
 
@@ -4933,7 +4933,7 @@ msgstr ""
 msgid "Unregistration failed."
 msgstr ""
 
-#: pyanaconda/core/storage.py:84
+#: pyanaconda/core/storage.py:83
 msgid "Unsupported"
 msgstr ""
 
@@ -5056,7 +5056,7 @@ msgstr ""
 msgid "VNC Password"
 msgstr ""
 
-#: pyanaconda/vnc.py:292
+#: pyanaconda/vnc.py:293
 msgid ""
 "VNC password must be six to eight characters long.\n"
 "Please enter a new one, or leave blank for no password."
@@ -5167,11 +5167,11 @@ msgid "Warning checking software selection"
 msgstr ""
 
 #: pyanaconda/ui/tui/spokes/storage.py:147
-#: pyanaconda/ui/gui/spokes/storage.py:298
+#: pyanaconda/ui/gui/spokes/storage.py:300
 msgid "Warning checking storage configuration"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:427
+#: pyanaconda/ui/gui/spokes/storage.py:429
 msgid ""
 "Warning checking storage configuration.  <a href=\"\">Click for details.</a>"
 msgstr ""
@@ -5279,7 +5279,7 @@ msgstr ""
 msgid "Wi-Fi Networks"
 msgstr ""
 
-#: pyanaconda/vnc.py:183
+#: pyanaconda/vnc.py:184
 msgid "Will try to connect again in 15 seconds..."
 msgstr ""
 
@@ -5372,7 +5372,7 @@ msgid ""
 "computer."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:600
+#: pyanaconda/ui/gui/spokes/storage.py:602
 msgid ""
 "You have chosen to skip boot loader installation. Your system may not be "
 "bootable."
@@ -6031,7 +6031,7 @@ msgctxt "GUI|Network|Proxy"
 msgid "_Method"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:896
+#: pyanaconda/ui/gui/spokes/storage.py:898
 msgctxt "GUI|Storage|Error Dialog"
 msgid "_Modify Disk Selection"
 msgstr ""
@@ -6041,7 +6041,7 @@ msgctxt "GUI|Software Selection|Error Dialog"
 msgid "_Modify Software Source"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:917
+#: pyanaconda/ui/gui/spokes/storage.py:919
 msgctxt "GUI|Storage|Error Dialog"
 msgid "_Modify Storage Layout"
 msgstr ""
@@ -6117,7 +6117,7 @@ msgctxt "GUI|Main"
 msgid "_No"
 msgstr ""
 
-#: pyanaconda/ui/gui/__init__.py:861
+#: pyanaconda/ui/gui/__init__.py:864
 msgctxt "GUI|Yes No Dialog"
 msgid "_No"
 msgstr ""
@@ -6167,7 +6167,7 @@ msgctxt "GUI|Software Source|Proxy Dialog"
 msgid "_OK"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:936
+#: pyanaconda/ui/gui/spokes/storage.py:938
 msgctxt "GUI|Storage|Warning Dialog"
 msgid "_OK"
 msgstr ""
@@ -6253,7 +6253,7 @@ msgctxt "GUI|Software Source"
 msgid "_Proxy setup..."
 msgstr ""
 
-#: pyanaconda/ui/gui/__init__.py:845
+#: pyanaconda/ui/gui/__init__.py:848
 #: pyanaconda/ui/gui/spokes/lib/detailederror.py:58
 msgctxt "GUI|Detailed Error Dialog"
 msgid "_Quit"
@@ -6269,8 +6269,8 @@ msgctxt "GUI|Standalone Navigation"
 msgid "_Quit"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:895
-#: pyanaconda/ui/gui/spokes/storage.py:916
+#: pyanaconda/ui/gui/spokes/storage.py:897
+#: pyanaconda/ui/gui/spokes/storage.py:918
 msgctxt "GUI|Storage|Error Dialog"
 msgid "_Quit"
 msgstr ""
@@ -6575,7 +6575,7 @@ msgctxt "GUI|Main"
 msgid "_Yes"
 msgstr ""
 
-#: pyanaconda/ui/gui/__init__.py:862
+#: pyanaconda/ui/gui/__init__.py:865
 msgctxt "GUI|Yes No Dialog"
 msgid "_Yes"
 msgstr ""
@@ -6827,7 +6827,7 @@ msgstr ""
 msgid "{} consumed"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/storage.py:480
+#: pyanaconda/ui/gui/spokes/storage.py:482
 msgid "{} free"
 msgstr ""
 
