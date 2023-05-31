@@ -6,10 +6,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  main.pot (anaconda 39.16)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.16\n"
+"#-#-#-#-#  main.pot (anaconda 39.17)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.17\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-30 01:26+0000\n"
+"POT-Creation-Date: 2023-05-31 01:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"#-#-#-#-#  main_js.pot (anaconda 39.16)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.16\n"
+"#-#-#-#-#  main_js.pot (anaconda 39.17)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.17\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-30 01:26+0000\n"
+"POT-Creation-Date: 2023-05-31 01:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,10 +30,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"#-#-#-#-#  extra.pot (anaconda 39.16)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.16\n"
+"#-#-#-#-#  extra.pot (anaconda 39.17)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.17\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-05-30 01:25+0000\n"
+"POT-Creation-Date: 2023-05-31 01:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1393,7 +1393,6 @@ msgid "Devices reconfiguration succeeded."
 msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/cart.glade:285
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:168
 msgid "Disabled"
 msgstr ""
 
@@ -1552,7 +1551,6 @@ msgid "Empty server"
 msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/additional_repositories.glade:79
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:168
 msgid "Enabled"
 msgstr ""
 
@@ -4137,7 +4135,6 @@ msgid "Status unknown (missing)"
 msgstr ""
 
 #: pyanaconda/ui/gui/spokes/storage.glade:347
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:159
 msgid "Storage Configuration"
 msgstr ""
 
@@ -6866,10 +6863,6 @@ msgstr ""
 msgid "Available storage capacity on the disk."
 msgstr ""
 
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:196
-msgid "Back"
-msgstr ""
-
 #: ui/webui/src/components/AnacondaHeader.jsx:46
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -6913,10 +6906,6 @@ msgstr ""
 
 #: ui/webui/src/components/storage/InstallationDestination.jsx:355
 msgid "Detecting disks"
-msgstr ""
-
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:165
-msgid "Disk Encryption"
 msgstr ""
 
 #: ui/webui/src/components/AnacondaWizard.jsx:73
@@ -6994,7 +6983,6 @@ msgstr ""
 msgid "Install on the free space?"
 msgstr ""
 
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:126
 #: ui/webui/src/components/AnacondaWizard.jsx:61
 msgid "Installation destination"
 msgstr ""
@@ -7007,20 +6995,12 @@ msgstr ""
 msgid "Installing"
 msgstr ""
 
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:118
-msgid "Language"
-msgstr ""
-
 #: ui/webui/src/components/storage/InstallationDestination.jsx:469
 msgid "Learn more about your storage options."
 msgstr ""
 
 #: ui/webui/src/components/storage/InstallationDestination.jsx:275
 msgid "Local disks label info"
-msgstr ""
-
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:141
-msgid "Local standard disk"
 msgstr ""
 
 #: ui/webui/src/components/storage/InstallationDestination.jsx:421
@@ -7104,7 +7084,6 @@ msgid ""
 "space on the selected devices, assuming you have enough free space available."
 msgstr ""
 
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:105
 #: ui/webui/src/components/AnacondaWizard.jsx:79
 msgid "Review and install"
 msgstr ""
@@ -7166,7 +7145,6 @@ msgstr ""
 msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:129
 #: ui/webui/src/components/AnacondaWizard.jsx:65
 msgid "Storage devices"
 msgstr ""
@@ -7255,10 +7233,6 @@ msgstr ""
 msgid "To enable select bigger disks"
 msgstr ""
 
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:109
-msgid "To prevent loss, make sure to backup your data. "
-msgstr ""
-
 #: ui/webui/src/components/storage/InstallationDestination.jsx:320
 msgid "Total"
 msgstr ""
@@ -7310,10 +7284,6 @@ msgstr ""
 
 #: ui/webui/src/components/installation/InstallationProgress.jsx:166
 msgid "pending step"
-msgstr ""
-
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:147
-msgid "total"
 msgstr ""
 
 #: ../data/liveinst/console.apps/liveinst.h:1
