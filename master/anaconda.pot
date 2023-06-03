@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.17)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.17\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-02 01:45+0000\n"
+"POT-Creation-Date: 2023-06-03 01:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.17)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.17\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-02 01:45+0000\n"
+"POT-Creation-Date: 2023-06-03 01:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.17)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.17\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-02 01:44+0000\n"
+"POT-Creation-Date: 2023-06-03 01:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -648,7 +648,7 @@ msgstr ""
 msgid "Anaconda Installer"
 msgstr ""
 
-#: anaconda.py:300
+#: anaconda.py:305
 #, python-format
 msgid ""
 "Anaconda is unable to create %s because the file already exists. Anaconda is "
@@ -1524,7 +1524,7 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: pyanaconda/core/users.py:106
+#: pyanaconda/core/users.py:125
 msgid ""
 "Either a group name in the group list is invalid or groups are not separated "
 "by a comma."
@@ -1879,7 +1879,7 @@ msgstr ""
 msgid "Full name cannot contain colon characters"
 msgstr ""
 
-#: pyanaconda/core/users.py:144
+#: pyanaconda/core/users.py:163
 msgid "Fully numeric name is not allowed."
 msgstr ""
 
@@ -2657,26 +2657,26 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: pyanaconda/core/users.py:148
+#: pyanaconda/core/users.py:167
 msgid "Name '$' is not allowed."
 msgstr ""
 
-#: pyanaconda/core/users.py:165
+#: pyanaconda/core/users.py:184
 #, python-format
 msgid "Name '%s' is invalid."
 msgstr ""
 
-#: pyanaconda/core/users.py:141
+#: pyanaconda/core/users.py:160
 #, python-format
 msgid "Name '%s' is not allowed."
 msgstr ""
 
-#: pyanaconda/core/users.py:158
+#: pyanaconda/core/users.py:177
 #, python-format
 msgid "Name cannot contain character: '%s'"
 msgstr ""
 
-#: pyanaconda/core/users.py:138
+#: pyanaconda/core/users.py:157
 msgid "Name cannot start with '-' character."
 msgstr ""
 
@@ -2685,7 +2685,7 @@ msgstr ""
 msgid "Name is already in use."
 msgstr ""
 
-#: pyanaconda/core/users.py:161
+#: pyanaconda/core/users.py:180
 msgid "Name must be shorter than 33 characters."
 msgstr ""
 
@@ -4866,7 +4866,7 @@ msgstr ""
 msgid "USER SETTINGS"
 msgstr ""
 
-#: anaconda.py:299
+#: anaconda.py:304
 msgid "Unable to create PID file"
 msgstr ""
 
@@ -5022,7 +5022,7 @@ msgstr ""
 msgid "User name"
 msgstr ""
 
-#: pyanaconda/core/users.py:82
+#: pyanaconda/core/users.py:101
 #, python-format
 msgid "User name is reserved for system: %s"
 msgstr ""
@@ -6855,7 +6855,7 @@ msgid_plural "$0 selected"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ui/webui/src/components/app.jsx:97
+#: ui/webui/src/components/app.jsx:98
 msgid "Anaconda installer"
 msgstr ""
 
@@ -6875,11 +6875,11 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:310
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:323
 msgid "Choose a language"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:319
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:332
 msgid "Chosen language: "
 msgstr ""
 
@@ -6939,7 +6939,7 @@ msgid ""
 "may take a few moments."
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:282
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:294
 msgid "Find a language"
 msgstr ""
 
@@ -7259,7 +7259,7 @@ msgstr ""
 msgid "Welcome to Fedora!"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:306
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:319
 msgid "Welcome to the Anaconda installer"
 msgstr ""
 
