@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.17)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.17\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-05 01:44+0000\n"
+"POT-Creation-Date: 2023-06-06 01:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.17)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.17\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-05 01:44+0000\n"
+"POT-Creation-Date: 2023-06-06 01:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.17)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.17\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-05 01:43+0000\n"
+"POT-Creation-Date: 2023-06-06 01:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6875,11 +6875,11 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:323
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:326
 msgid "Choose a language"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:332
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:335
 msgid "Chosen language: "
 msgstr ""
 
@@ -6939,7 +6939,7 @@ msgid ""
 "may take a few moments."
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:294
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:297
 msgid "Find a language"
 msgstr ""
 
@@ -7259,7 +7259,7 @@ msgstr ""
 msgid "Welcome to Fedora!"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:319
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:322
 msgid "Welcome to the Anaconda installer"
 msgstr ""
 
