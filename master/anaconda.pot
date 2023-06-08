@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.18)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.18\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-07 01:47+0000\n"
+"POT-Creation-Date: 2023-06-08 01:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.18)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.18\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-07 01:47+0000\n"
+"POT-Creation-Date: 2023-06-08 01:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.18)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.18\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-07 01:46+0000\n"
+"POT-Creation-Date: 2023-06-08 01:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -839,7 +839,7 @@ msgstr ""
 msgid "Btrfs"
 msgstr ""
 
-#: pyanaconda/modules/storage/kickstart.py:81
+#: pyanaconda/modules/storage/kickstart.py:114
 msgid "Btrfs file system is not supported."
 msgstr ""
 
@@ -1322,7 +1322,7 @@ msgstr ""
 msgid "Device"
 msgstr ""
 
-#: pyanaconda/modules/storage/kickstart.py:115
+#: pyanaconda/modules/storage/kickstart.py:148
 msgid "Device \"{}\" given in clearpart device list does not exist."
 msgstr ""
 
@@ -1435,16 +1435,16 @@ msgstr ""
 msgid "Disk"
 msgstr ""
 
-#: pyanaconda/modules/storage/kickstart.py:110
+#: pyanaconda/modules/storage/kickstart.py:143
 msgid "Disk \"{}\" given in clearpart command does not exist."
 msgstr ""
 
-#: pyanaconda/modules/storage/kickstart.py:134
-#: pyanaconda/modules/storage/kickstart.py:139
+#: pyanaconda/modules/storage/kickstart.py:167
+#: pyanaconda/modules/storage/kickstart.py:172
 msgid "Disk \"{}\" given in ignoredisk command does not exist."
 msgstr ""
 
-#: pyanaconda/modules/storage/kickstart.py:245
+#: pyanaconda/modules/storage/kickstart.py:286
 msgid "Disk \"{}\" given in nvdimm command does not exist."
 msgstr ""
 
@@ -1469,7 +1469,7 @@ msgstr ""
 msgid "Disk summary goes here"
 msgstr ""
 
-#: pyanaconda/modules/storage/kickstart.py:104
+#: pyanaconda/modules/storage/kickstart.py:137
 msgid ""
 "Disklabel \"{}\" given in clearpart command is not supported on this "
 "platform."
@@ -1765,7 +1765,7 @@ msgstr ""
 msgid "File System"
 msgstr ""
 
-#: pyanaconda/modules/storage/kickstart.py:65
+#: pyanaconda/modules/storage/kickstart.py:95
 msgid "File system type \"{}\" given in autopart command is invalid."
 msgstr ""
 
@@ -1875,7 +1875,7 @@ msgstr ""
 msgid "Full name can't contain the ':' character"
 msgstr ""
 
-#: pyanaconda/input_checking.py:550
+#: pyanaconda/input_checking.py:570
 msgid "Full name cannot contain colon characters"
 msgstr ""
 
@@ -2137,7 +2137,11 @@ msgstr ""
 msgid "Identity: "
 msgstr ""
 
-#: pyanaconda/modules/storage/kickstart.py:258
+#: pyanaconda/input_checking.py:456
+msgid "In FIPS mode, the passphrase must be at least {} letters long."
+msgstr ""
+
+#: pyanaconda/modules/storage/kickstart.py:317
 msgid ""
 "Incorrectly specified origin of the snapshot. Use format \"VolGroup/LV-name\""
 msgstr ""
@@ -2623,7 +2627,7 @@ msgstr ""
 msgid "NFS server {}"
 msgstr ""
 
-#: pyanaconda/modules/storage/kickstart.py:149
+#: pyanaconda/modules/storage/kickstart.py:182
 msgid "NIC \"{}\" given in fcoe command does not exist."
 msgstr ""
 
@@ -2703,8 +2707,8 @@ msgstr ""
 msgid "Namespace"
 msgstr ""
 
-#: pyanaconda/modules/storage/kickstart.py:228
-#: pyanaconda/modules/storage/kickstart.py:240
+#: pyanaconda/modules/storage/kickstart.py:269
+#: pyanaconda/modules/storage/kickstart.py:281
 msgid "Namespace \"{}\" given in nvdimm command was not found."
 msgstr ""
 
@@ -2733,7 +2737,7 @@ msgstr ""
 msgid "Network configuration is not available."
 msgstr ""
 
-#: pyanaconda/modules/storage/kickstart.py:174
+#: pyanaconda/modules/storage/kickstart.py:207
 #, python-brace-format
 msgid ""
 "Network interface \"{nic}\" required by iSCSI \"{iscsi_target}\" target is "
@@ -3046,6 +3050,12 @@ msgstr ""
 #: pyanaconda/ui/tui/spokes/storage.py:355
 #: ui/webui/src/components/storage/DiskEncryption.jsx:261
 msgid "Passphrase"
+msgstr ""
+
+#: pyanaconda/modules/storage/kickstart.py:79
+msgid ""
+"Passphrase given in the {} command is too short in FIPS mode. Please use at "
+"least {} characters."
 msgstr ""
 
 #: pyanaconda/ui/tui/spokes/user.py:148
@@ -4897,7 +4907,7 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: pyanaconda/modules/storage/devicetree/root.py:340
+#: pyanaconda/modules/storage/devicetree/root.py:345
 msgid "Unknown Linux"
 msgstr ""
 
@@ -6645,7 +6655,7 @@ msgctxt "GUI|Advanced Storage|iSCSI|Configure"
 msgid "iSCSI _Initiator Name:"
 msgstr ""
 
-#: pyanaconda/modules/storage/kickstart.py:190
+#: pyanaconda/modules/storage/kickstart.py:223
 msgid ""
 "iscsi --iface must be specified (binding used) either for all targets or for "
 "none"
@@ -6798,12 +6808,12 @@ msgstr ""
 msgid "{fs} must be on a device of type {type}"
 msgstr ""
 
-#: pyanaconda/modules/storage/devicetree/root.py:345
+#: pyanaconda/modules/storage/devicetree/root.py:350
 #, python-brace-format
 msgid "{product} Linux {version} for {arch}"
 msgstr ""
 
-#: pyanaconda/modules/storage/devicetree/root.py:343
+#: pyanaconda/modules/storage/devicetree/root.py:348
 #, python-brace-format
 msgid "{product} {version} for {arch}"
 msgstr ""
