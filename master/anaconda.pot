@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.19)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.19\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-14 01:37+0000\n"
+"POT-Creation-Date: 2023-06-15 01:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.19)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.19\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-14 01:37+0000\n"
+"POT-Creation-Date: 2023-06-15 01:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.19)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.19\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-14 01:36+0000\n"
+"POT-Creation-Date: 2023-06-15 01:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -291,7 +291,7 @@ msgstr ""
 msgid "%s cannot be on an encrypted block device."
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:501
+#: pyanaconda/modules/storage/checker/utils.py:497
 #, python-format
 msgid ""
 "%s is currently mounted and cannot be used for the installation. Please "
@@ -430,7 +430,7 @@ msgstr ""
 msgid "<span size=\"small\"><b>Example:</b> squid.mysite.org:3128</span>"
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:322
+#: pyanaconda/modules/storage/checker/utils.py:318
 msgid ""
 "A swap partition has not been specified. To significantly improve "
 "performance for most installations, it is recommended to specify a swap "
@@ -636,7 +636,7 @@ msgstr ""
 msgid "An error occurred while activating your storage configuration."
 msgstr ""
 
-#: pyanaconda/modules/storage/installation.py:93
+#: pyanaconda/modules/storage/installation.py:89
 msgid "An error occurred while resizing the device {}: {}"
 msgstr ""
 
@@ -695,7 +695,7 @@ msgstr ""
 msgid "Assign mount points"
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:340
+#: pyanaconda/modules/storage/checker/utils.py:336
 msgid ""
 "At least one of your swap devices does not have a UUID, which is common in "
 "swap space created using older versions of mkswap. These devices will be "
@@ -1582,7 +1582,7 @@ msgstr ""
 msgid "Encryption"
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:438
+#: pyanaconda/modules/storage/checker/utils.py:434
 #, python-format
 msgid ""
 "Encryption requested for LUKS device %s but no encryption key specified for "
@@ -1895,15 +1895,15 @@ msgstr ""
 msgid "Gateway"
 msgstr ""
 
-#: pyanaconda/modules/storage/installation.py:148
+#: pyanaconda/modules/storage/installation.py:144
 msgid "Gathering entropy (time ran out)"
 msgstr ""
 
-#: pyanaconda/modules/storage/installation.py:144
+#: pyanaconda/modules/storage/installation.py:140
 msgid "Gathering entropy 100%"
 msgstr ""
 
-#: pyanaconda/modules/storage/installation.py:151
+#: pyanaconda/modules/storage/installation.py:147
 #, python-brace-format
 msgid "Gathering entropy {percents}% (remaining time {time})"
 msgstr ""
@@ -2350,7 +2350,7 @@ msgid ""
 "%(error_message)s"
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:107
+#: pyanaconda/modules/storage/checker/utils.py:103
 #, python-format
 msgid ""
 "It is recommended to create a new file system on your %(mount)s partition."
@@ -2864,7 +2864,7 @@ msgstr ""
 msgid "No user will be created"
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:175
+#: pyanaconda/modules/storage/checker/utils.py:171
 msgid "No valid boot loader target device found. See below for details."
 msgstr ""
 
@@ -3889,7 +3889,7 @@ msgstr ""
 msgid "Selected disks"
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:536
+#: pyanaconda/modules/storage/checker/utils.py:532
 msgid ""
 "Selected disks {} contain volume group '{}' that also uses further "
 "unselected disks. You must select or de-select all these disks as a set."
@@ -4301,7 +4301,7 @@ msgid ""
 "from GPT-partitioned disks on BIOS hardware."
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:85
+#: pyanaconda/modules/storage/checker/utils.py:81
 #, python-brace-format
 msgid ""
 "The LDL DASD disk {name} ({busid}) cannot be used for the installation. "
@@ -4333,7 +4333,7 @@ msgstr ""
 msgid "The added DASD can be found under \"Local Standard Disks.\""
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:460
+#: pyanaconda/modules/storage/checker/utils.py:456
 #, python-format
 msgid ""
 "The available memory is less than %(size)s which can be too small for LUKS2 "
@@ -4344,7 +4344,7 @@ msgstr ""
 msgid "The container is encrypted."
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:417
+#: pyanaconda/modules/storage/checker/utils.py:413
 msgid ""
 "The existing unlocked LUKS device {} cannot be used for the installation "
 "without an encryption key specified for this device. Please, rescan the "
@@ -4510,7 +4510,7 @@ msgstr ""
 msgid "The mount point \"{}\" is not valid. It must start with a /."
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:392
+#: pyanaconda/modules/storage/checker/utils.py:388
 #, python-format
 msgid "The mount point %s must be on a linux file system."
 msgstr ""
@@ -4644,7 +4644,7 @@ msgstr ""
 msgid "The system is currently not registered."
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:250
+#: pyanaconda/modules/storage/checker/utils.py:246
 msgid ""
 "The system will not be bootable. The firmware does not support XFS file "
 "system features on the boot file system. Upgrade the firmware or change the "
@@ -4673,7 +4673,7 @@ msgid ""
 "free disk space and make it available for this installation below."
 msgstr ""
 
-#: pyanaconda/modules/storage/devicetree/fsset.py:423
+#: pyanaconda/modules/storage/devicetree/fsset.py:420
 #, python-brace-format
 msgid ""
 "There is an entry in your /etc/fstab file that contains an invalid or "
@@ -4764,7 +4764,7 @@ msgctxt "GUI|Software Source|Media Check Dialog"
 msgid "This media is not good to install from."
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:359
+#: pyanaconda/modules/storage/checker/utils.py:355
 #, python-format
 msgid ""
 "This mount point is invalid. The %s directory must be on the / file system."
@@ -5389,18 +5389,18 @@ msgstr ""
 msgid "You have no working NTP server configured"
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:188
+#: pyanaconda/modules/storage/checker/utils.py:184
 msgid "You have not created a bootable partition."
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:55
+#: pyanaconda/modules/storage/checker/utils.py:51
 #, python-format
 msgid ""
 "You have not defined a root partition (/), which is required for "
 "installation of %s to continue."
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:308
+#: pyanaconda/modules/storage/checker/utils.py:304
 #, python-format
 msgid ""
 "You have not specified a swap partition. %(requiredMem)s of memory is "
@@ -5408,7 +5408,7 @@ msgid ""
 "have %(installedMem)s."
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:315
+#: pyanaconda/modules/storage/checker/utils.py:311
 #, python-format
 msgid ""
 "You have not specified a swap partition. %(requiredMem)s of memory is "
@@ -5440,7 +5440,7 @@ msgid ""
 "parentheses. "
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:60
+#: pyanaconda/modules/storage/checker/utils.py:56
 #: pyanaconda/modules/storage/partitioning/interactive/utils.py:428
 msgid "You must create a new file system on the root device."
 msgstr ""
@@ -5511,38 +5511,38 @@ msgstr ""
 msgid "You'll set a passphrase next."
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:123
+#: pyanaconda/modules/storage/checker/utils.py:119
 #, python-format
 msgid ""
 "Your %(mount)s partition is less than %(size)s which is lower than "
 "recommended for a normal %(productName)s install."
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:157
+#: pyanaconda/modules/storage/checker/utils.py:153
 #, python-format
 msgid ""
 "Your %(mount)s partition is too large for %(format)s formatting (allowable "
 "size is %(minSize)s to %(maxSize)s)"
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:151
+#: pyanaconda/modules/storage/checker/utils.py:147
 #, python-format
 msgid ""
 "Your %(mount)s partition is too small for %(format)s formatting (allowable "
 "size is %(minSize)s to %(maxSize)s)"
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:131
+#: pyanaconda/modules/storage/checker/utils.py:127
 #, python-format
 msgid "Your %(mount)s partition size is lower than required %(size)s."
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:375
+#: pyanaconda/modules/storage/checker/utils.py:371
 #, python-format
 msgid "Your %s must be on a separate partition or LV."
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:225
+#: pyanaconda/modules/storage/checker/utils.py:221
 msgid ""
 "Your BIOS-based system needs a special partition to boot from a GPT disk "
 "label. To continue, please create a 1MiB 'biosboot' type partition on the {} "
@@ -5571,7 +5571,7 @@ msgid ""
 "you return to the main menu and begin installation:"
 msgstr ""
 
-#: pyanaconda/modules/storage/checker/utils.py:66
+#: pyanaconda/modules/storage/checker/utils.py:62
 #, python-format
 msgid "Your root partition must be on a device of type: %s."
 msgstr ""
@@ -6918,7 +6918,7 @@ msgstr ""
 msgid "Detecting disks"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:73
+#: ui/webui/src/components/AnacondaWizard.jsx:76
 msgid "Disk encryption"
 msgstr ""
 
@@ -6993,7 +6993,7 @@ msgstr ""
 msgid "Install on the free space?"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:61
+#: ui/webui/src/components/AnacondaWizard.jsx:64
 msgid "Installation destination"
 msgstr ""
 
@@ -7094,7 +7094,7 @@ msgid ""
 "space on the selected devices, assuming you have enough free space available."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:79
+#: ui/webui/src/components/AnacondaWizard.jsx:82
 msgid "Review and install"
 msgstr ""
 
@@ -7146,7 +7146,7 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:69
+#: ui/webui/src/components/AnacondaWizard.jsx:72
 #: ui/webui/src/components/installation/InstallationProgress.jsx:110
 msgid "Storage configuration"
 msgstr ""
@@ -7155,7 +7155,7 @@ msgstr ""
 msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:65
+#: ui/webui/src/components/AnacondaWizard.jsx:68
 msgid "Storage devices"
 msgstr ""
 
@@ -7261,7 +7261,7 @@ msgid ""
 "connected after starting the installation process."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:56
+#: ui/webui/src/components/AnacondaWizard.jsx:59
 msgid "Welcome"
 msgstr ""
 
