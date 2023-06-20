@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.19)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.19\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-19 01:38+0000\n"
+"POT-Creation-Date: 2023-06-20 01:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.19)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.19\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-19 01:38+0000\n"
+"POT-Creation-Date: 2023-06-20 01:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.19)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.19\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-19 01:37+0000\n"
+"POT-Creation-Date: 2023-06-20 01:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6859,10 +6859,6 @@ msgid_plural "$0 selected"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ui/webui/src/components/app.jsx:98
-msgid "Anaconda installer"
-msgstr ""
-
 #: ui/webui/src/components/storage/InstallationDestination.jsx:339
 msgid "Available storage capacity on the disk."
 msgstr ""
@@ -6879,15 +6875,15 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:326
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:334
 msgid "Choose a language"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:335
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:343
 msgid "Chosen language: "
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:176
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:177
 msgid "Common languages"
 msgstr ""
 
@@ -6944,7 +6940,7 @@ msgid ""
 "may take a few moments."
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:297
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:298
 msgid "Find a language"
 msgstr ""
 
@@ -7030,7 +7026,7 @@ msgstr ""
 msgid "No additional disks detected"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:220
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:221
 msgid "No results found"
 msgstr ""
 
@@ -7272,10 +7268,6 @@ msgstr ""
 
 #: data/liveinst/gnome/fedora-welcome.js:49
 msgid "Welcome to Fedora!"
-msgstr ""
-
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:322
-msgid "Welcome to the Anaconda installer"
 msgstr ""
 
 #: ui/webui/src/components/storage/DiskEncryption.jsx:237
