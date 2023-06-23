@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.20)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.20\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-22 01:39+0000\n"
+"POT-Creation-Date: 2023-06-23 01:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.20)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.20\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-22 01:39+0000\n"
+"POT-Creation-Date: 2023-06-23 01:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.20)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.20\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-22 01:38+0000\n"
+"POT-Creation-Date: 2023-06-23 01:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6875,11 +6875,11 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:334
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:332
 msgid "Choose a language"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:343
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:341
 msgid "Chosen language: "
 msgstr ""
 
@@ -6887,7 +6887,7 @@ msgstr ""
 msgid "Common languages"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:173
+#: ui/webui/src/components/installation/InstallationProgress.jsx:168
 msgid "Completed"
 msgstr ""
 
@@ -6930,11 +6930,11 @@ msgstr ""
 msgid "Erasing the data cannot be undone."
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:125
+#: ui/webui/src/components/installation/InstallationProgress.jsx:120
 msgid "Finalization"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:127
+#: ui/webui/src/components/installation/InstallationProgress.jsx:122
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -6972,7 +6972,7 @@ msgid ""
 "installation process to proceed."
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:178
+#: ui/webui/src/components/installation/InstallationProgress.jsx:173
 msgid "In progress"
 msgstr ""
 
@@ -6988,11 +6988,11 @@ msgstr ""
 msgid "Installation destination"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:142
+#: ui/webui/src/components/installation/InstallationProgress.jsx:137
 msgid "Installation failed"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:144
+#: ui/webui/src/components/installation/InstallationProgress.jsx:139
 msgid "Installing"
 msgstr ""
 
@@ -7057,7 +7057,7 @@ msgstr ""
 msgid "Passphrases must match"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:167
+#: ui/webui/src/components/installation/InstallationProgress.jsx:162
 msgid "Pending"
 msgstr ""
 
@@ -7073,7 +7073,7 @@ msgstr ""
 msgid "Pre-release"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:216
+#: ui/webui/src/components/installation/InstallationProgress.jsx:211
 msgid "Reboot"
 msgstr ""
 
@@ -7135,22 +7135,22 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:115
+#: ui/webui/src/components/installation/InstallationProgress.jsx:110
 msgid "Software installation"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:117
+#: ui/webui/src/components/installation/InstallationProgress.jsx:112
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
 msgstr ""
 
 #: ui/webui/src/components/AnacondaWizard.jsx:72
-#: ui/webui/src/components/installation/InstallationProgress.jsx:110
+#: ui/webui/src/components/installation/InstallationProgress.jsx:105
 msgid "Storage configuration"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:112
+#: ui/webui/src/components/installation/InstallationProgress.jsx:107
 msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 
@@ -7162,15 +7162,15 @@ msgstr ""
 msgid "Storage options"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:139
+#: ui/webui/src/components/installation/InstallationProgress.jsx:134
 msgid "Successfully installed"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:120
+#: ui/webui/src/components/installation/InstallationProgress.jsx:115
 msgid "System configuration"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:122
+#: ui/webui/src/components/installation/InstallationProgress.jsx:117
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -7230,7 +7230,7 @@ msgid ""
 "backed up your data."
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:158
+#: ui/webui/src/components/installation/InstallationProgress.jsx:153
 msgid "To begin using Fedora 39 (Workstation Edition), reboot your system."
 msgstr ""
 
@@ -7281,15 +7281,15 @@ msgid ""
 "encryption, check the \"Encrypt System\" checkbox"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:172
+#: ui/webui/src/components/installation/InstallationProgress.jsx:167
 msgid "completed step"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:177
+#: ui/webui/src/components/installation/InstallationProgress.jsx:172
 msgid "current step"
 msgstr ""
 
-#: ui/webui/src/components/installation/InstallationProgress.jsx:166
+#: ui/webui/src/components/installation/InstallationProgress.jsx:161
 msgid "pending step"
 msgstr ""
 
