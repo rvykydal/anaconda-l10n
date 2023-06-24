@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.20)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.20\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-23 01:47+0000\n"
+"POT-Creation-Date: 2023-06-24 01:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.20)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.20\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-23 01:47+0000\n"
+"POT-Creation-Date: 2023-06-24 01:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.20)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.20\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-23 01:46+0000\n"
+"POT-Creation-Date: 2023-06-24 01:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1840,7 +1840,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/cart.glade:175
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:263
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:766
-#: ui/webui/src/components/storage/InstallationDestination.jsx:334
+#: ui/webui/src/components/storage/InstallationDestination.jsx:299
 msgid "Free"
 msgstr ""
 
@@ -2053,7 +2053,7 @@ msgid "I want to _proceed"
 msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:931
-#: ui/webui/src/components/storage/InstallationDestination.jsx:331
+#: ui/webui/src/components/storage/InstallationDestination.jsx:296
 msgid "ID"
 msgstr ""
 
@@ -2657,7 +2657,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:386
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:1438
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:1761
-#: ui/webui/src/components/storage/InstallationDestination.jsx:327
+#: ui/webui/src/components/storage/InstallationDestination.jsx:292
 msgid "Name"
 msgstr ""
 
@@ -3344,6 +3344,7 @@ msgid "Purpose"
 msgstr ""
 
 #: pyanaconda/ui/gui/main.glade:176
+#: ui/webui/src/components/installation/InstallationProgress.jsx:211
 msgid "Quit"
 msgstr ""
 
@@ -3846,7 +3847,7 @@ msgid "Select additional language support to be installed:"
 msgstr ""
 
 #: pyanaconda/ui/tui/spokes/storage.py:216
-#: ui/webui/src/components/storage/InstallationDestination.jsx:165
+#: ui/webui/src/components/storage/InstallationDestination.jsx:155
 msgid "Select all"
 msgstr ""
 
@@ -4835,7 +4836,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade:140
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:1775
-#: ui/webui/src/components/storage/InstallationDestination.jsx:351
+#: ui/webui/src/components/storage/InstallationDestination.jsx:316
 msgid "Type"
 msgstr ""
 
@@ -6853,13 +6854,13 @@ msgstr ""
 msgid "{}. {}"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:177
+#: ui/webui/src/components/storage/InstallationDestination.jsx:167
 msgid "$0 selected"
 msgid_plural "$0 selected"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:339
+#: ui/webui/src/components/storage/InstallationDestination.jsx:304
 msgid "Available storage capacity on the disk."
 msgstr ""
 
@@ -6875,15 +6876,15 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:332
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:314
 msgid "Choose a language"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:341
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:323
 msgid "Chosen language: "
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:177
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:157
 msgid "Common languages"
 msgstr ""
 
@@ -6900,16 +6901,16 @@ msgid "Create a passphrase"
 msgstr ""
 
 #: ui/webui/src/components/storage/HelpStorageOptions.jsx:34
-#: ui/webui/src/components/storage/InstallationDestination.jsx:295
-#: ui/webui/src/components/storage/InstallationDestination.jsx:321
+#: ui/webui/src/components/storage/InstallationDestination.jsx:258
+#: ui/webui/src/components/storage/InstallationDestination.jsx:286
 msgid "Detect disks"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:393
+#: ui/webui/src/components/storage/InstallationDestination.jsx:358
 msgid "Detecting disks"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:76
+#: ui/webui/src/components/AnacondaWizard.jsx:83
 msgid "Disk encryption"
 msgstr ""
 
@@ -6940,7 +6941,7 @@ msgid ""
 "may take a few moments."
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:298
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:279
 msgid "Find a language"
 msgstr ""
 
@@ -6984,7 +6985,7 @@ msgstr ""
 msgid "Install on the free space?"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:64
+#: ui/webui/src/components/AnacondaWizard.jsx:70
 msgid "Installation destination"
 msgstr ""
 
@@ -6996,19 +6997,19 @@ msgstr ""
 msgid "Installing"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:507
+#: ui/webui/src/components/storage/InstallationDestination.jsx:488
 msgid "Learn more about your storage options."
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:287
+#: ui/webui/src/components/storage/InstallationDestination.jsx:250
 msgid "Local disks label info"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:459
+#: ui/webui/src/components/storage/InstallationDestination.jsx:440
 msgid "Local standard disks"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:280
+#: ui/webui/src/components/storage/InstallationDestination.jsx:243
 msgid ""
 "Locally available storage devices (SATA, NVMe SSD, SCSI hard drives, "
 "external disks, etc.)"
@@ -7022,11 +7023,11 @@ msgstr ""
 msgid "Must be at least 8 characters"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:469
+#: ui/webui/src/components/storage/InstallationDestination.jsx:450
 msgid "No additional disks detected"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:221
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:201
 msgid "No results found"
 msgstr ""
 
@@ -7049,7 +7050,7 @@ msgid ""
 "production environments."
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:351
+#: ui/webui/src/components/storage/InstallationDestination.jsx:316
 msgid "Partition"
 msgstr ""
 
@@ -7089,35 +7090,35 @@ msgid ""
 "space on the selected devices, assuming you have enough free space available."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:82
+#: ui/webui/src/components/AnacondaWizard.jsx:90
 msgid "Review and install"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:316
+#: ui/webui/src/components/storage/InstallationDestination.jsx:281
 msgid "Scans for local storage devices"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:161
+#: ui/webui/src/components/storage/InstallationDestination.jsx:151
 msgid "Select all disks"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:173
+#: ui/webui/src/components/storage/InstallationDestination.jsx:163
 msgid "Select multiple disks"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:152
+#: ui/webui/src/components/storage/InstallationDestination.jsx:142
 msgid "Select no disk"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:156
+#: ui/webui/src/components/storage/InstallationDestination.jsx:146
 msgid "Select none"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:498
+#: ui/webui/src/components/storage/InstallationDestination.jsx:479
 msgid "Select storage devices"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:502
+#: ui/webui/src/components/storage/InstallationDestination.jsx:483
 msgid ""
 "Select the devices to install to. The installation requires $0 of available "
 "space. Storage will be automatically partitioned."
@@ -7131,7 +7132,7 @@ msgstr ""
 msgid "Show password"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:351
+#: ui/webui/src/components/storage/InstallationDestination.jsx:316
 msgid "Size"
 msgstr ""
 
@@ -7145,7 +7146,7 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:72
+#: ui/webui/src/components/AnacondaWizard.jsx:79
 #: ui/webui/src/components/installation/InstallationProgress.jsx:105
 msgid "Storage configuration"
 msgstr ""
@@ -7154,7 +7155,7 @@ msgstr ""
 msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:68
+#: ui/webui/src/components/AnacondaWizard.jsx:75
 msgid "Storage devices"
 msgstr ""
 
@@ -7242,7 +7243,7 @@ msgstr ""
 msgid "To enable select bigger disks"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:332
+#: ui/webui/src/components/storage/InstallationDestination.jsx:297
 msgid "Total"
 msgstr ""
 
@@ -7262,7 +7263,7 @@ msgid ""
 "connected after starting the installation process."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:59
+#: ui/webui/src/components/AnacondaWizard.jsx:65
 msgid "Welcome"
 msgstr ""
 
