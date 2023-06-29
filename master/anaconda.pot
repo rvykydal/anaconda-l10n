@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.22)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.22\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-28 01:49+0000\n"
+"POT-Creation-Date: 2023-06-29 01:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.22)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.22\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-28 01:49+0000\n"
+"POT-Creation-Date: 2023-06-29 01:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.22)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.22\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-06-28 01:48+0000\n"
+"POT-Creation-Date: 2023-06-29 01:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2152,7 +2152,7 @@ msgid "Insights"
 msgstr ""
 
 #: data/liveinst/liveinst.desktop:4
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:167
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:166
 msgid "Install"
 msgstr ""
 
@@ -6910,7 +6910,7 @@ msgstr ""
 msgid "Detecting disks"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:83
+#: ui/webui/src/components/AnacondaWizard.jsx:84
 msgid "Disk encryption"
 msgstr ""
 
@@ -6918,16 +6918,16 @@ msgstr ""
 msgid "Encrypt the selected devices?"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:147
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:153
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:146
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:152
 msgid "Erase data and install"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:157
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:156
 msgid "Erase data and install?"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:155
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:154
 msgid "Erasing the data cannot be undone."
 msgstr ""
 
@@ -6981,7 +6981,7 @@ msgstr ""
 msgid "Install Fedora…"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:171
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:170
 msgid "Install on the free space?"
 msgstr ""
 
@@ -7035,11 +7035,11 @@ msgstr ""
 msgid "Not Now"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:134
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:133
 msgid "Not enough free space."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:118
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:117
 msgid "Not enough space on selected disks."
 msgstr ""
 
@@ -7062,11 +7062,11 @@ msgstr ""
 msgid "Pending"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:213
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:212
 msgid "Pre-defined scenarios of the selected disks partitioning."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:219
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:218
 msgid "Pre-defined storage label info"
 msgstr ""
 
@@ -7090,7 +7090,7 @@ msgid ""
 "space on the selected devices, assuming you have enough free space available."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:90
+#: ui/webui/src/components/AnacondaWizard.jsx:91
 msgid "Review and install"
 msgstr ""
 
@@ -7146,7 +7146,7 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:79
+#: ui/webui/src/components/AnacondaWizard.jsx:80
 #: ui/webui/src/components/installation/InstallationProgress.jsx:105
 msgid "Storage configuration"
 msgstr ""
@@ -7177,7 +7177,7 @@ msgid ""
 "being configured."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:172
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:171
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
@@ -7192,20 +7192,20 @@ msgid ""
 "swap partition."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:158
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:157
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:136
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:135
 msgid ""
 "There is not enough available free space to install. The installation needs "
 "$1 of available disk space; however, only $0 is currently available on the "
 "selected disks."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:120
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:119
 msgid ""
 "There is not enough space on the disks to install. The installation needs $1 "
 "of disk space; however, the capacity of the selected disks is only $0."
@@ -7235,11 +7235,11 @@ msgstr ""
 msgid "To begin using Fedora 39 (Workstation Edition), reboot your system."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:140
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:139
 msgid "To enable free up disk space"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:124
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:123
 msgid "To enable select bigger disks"
 msgstr ""
 
@@ -7247,7 +7247,7 @@ msgstr ""
 msgid "Total"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:161
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:160
 msgid "Use free space for the installation"
 msgstr ""
 
