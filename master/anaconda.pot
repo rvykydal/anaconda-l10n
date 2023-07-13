@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.24)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.24\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-12 01:49+0000\n"
+"POT-Creation-Date: 2023-07-13 01:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.24)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.24\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-12 01:49+0000\n"
+"POT-Creation-Date: 2023-07-13 01:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.24)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.24\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-12 01:48+0000\n"
+"POT-Creation-Date: 2023-07-13 01:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1840,7 +1840,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/cart.glade:175
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:263
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:766
-#: ui/webui/src/components/storage/InstallationDestination.jsx:282
+#: ui/webui/src/components/storage/InstallationDestination.jsx:279
 msgid "Free"
 msgstr ""
 
@@ -2053,7 +2053,7 @@ msgid "I want to _proceed"
 msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:931
-#: ui/webui/src/components/storage/InstallationDestination.jsx:279
+#: ui/webui/src/components/storage/InstallationDestination.jsx:276
 msgid "ID"
 msgstr ""
 
@@ -2657,7 +2657,7 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/additional_repositories.glade:92
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:237
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:740
-#: ui/webui/src/components/storage/InstallationDestination.jsx:275
+#: ui/webui/src/components/storage/InstallationDestination.jsx:272
 msgid "Name"
 msgstr ""
 
@@ -4837,7 +4837,7 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:1775
 #: pyanaconda/ui/gui/spokes/lib/summary.glade:140
-#: ui/webui/src/components/storage/InstallationDestination.jsx:299
+#: ui/webui/src/components/storage/InstallationDestination.jsx:296
 msgid "Type"
 msgstr ""
 
@@ -6865,7 +6865,7 @@ msgstr[1] ""
 msgid "Apply mount point assignment and install"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:287
+#: ui/webui/src/components/storage/InstallationDestination.jsx:284
 msgid "Available storage capacity on the disk."
 msgstr ""
 
@@ -6909,13 +6909,13 @@ msgstr ""
 msgid "Custom mount point"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:240
-#: ui/webui/src/components/storage/InstallationDestination.jsx:269
+#: ui/webui/src/components/storage/InstallationDestination.jsx:237
+#: ui/webui/src/components/storage/InstallationDestination.jsx:266
 #: ui/webui/src/components/storage/HelpStorageOptions.jsx:34
 msgid "Detect disks"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:341
+#: ui/webui/src/components/storage/InstallationDestination.jsx:338
 msgid "Detecting disks"
 msgstr ""
 
@@ -7010,19 +7010,19 @@ msgstr ""
 msgid "Installing"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:472
+#: ui/webui/src/components/storage/InstallationDestination.jsx:469
 msgid "Learn more about your storage options."
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:232
+#: ui/webui/src/components/storage/InstallationDestination.jsx:229
 msgid "Local disks label info"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:423
+#: ui/webui/src/components/storage/InstallationDestination.jsx:420
 msgid "Local standard disks"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:225
+#: ui/webui/src/components/storage/InstallationDestination.jsx:222
 msgid ""
 "Locally available storage devices (SATA, NVMe SSD, SCSI hard drives, "
 "external disks, etc.)"
@@ -7040,7 +7040,7 @@ msgstr ""
 msgid "Must be at least 8 characters"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:433
+#: ui/webui/src/components/storage/InstallationDestination.jsx:430
 msgid "No additional disks detected"
 msgstr ""
 
@@ -7071,7 +7071,7 @@ msgid ""
 "production environments."
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:299
+#: ui/webui/src/components/storage/InstallationDestination.jsx:296
 msgid "Partition"
 msgstr ""
 
@@ -7115,7 +7115,7 @@ msgstr ""
 msgid "Review and install"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:264
+#: ui/webui/src/components/storage/InstallationDestination.jsx:261
 msgid "Scans for local storage devices"
 msgstr ""
 
@@ -7139,11 +7139,11 @@ msgstr ""
 msgid "Select none"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:463
+#: ui/webui/src/components/storage/InstallationDestination.jsx:460
 msgid "Select storage devices"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:467
+#: ui/webui/src/components/storage/InstallationDestination.jsx:464
 msgid ""
 "Select the devices to install to. The installation requires $0 of available "
 "space. Storage will be automatically partitioned."
@@ -7157,7 +7157,7 @@ msgstr ""
 msgid "Show password"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:299
+#: ui/webui/src/components/storage/InstallationDestination.jsx:296
 msgid "Size"
 msgstr ""
 
@@ -7276,7 +7276,7 @@ msgstr ""
 msgid "To enable select bigger disks"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:280
+#: ui/webui/src/components/storage/InstallationDestination.jsx:277
 msgid "Total"
 msgstr ""
 
