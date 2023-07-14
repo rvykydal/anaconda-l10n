@@ -6,10 +6,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  main.pot (anaconda 39.24)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.24\n"
+"#-#-#-#-#  main.pot (anaconda 39.25)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.25\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-13 01:51+0000\n"
+"POT-Creation-Date: 2023-07-14 01:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,10 +18,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"#-#-#-#-#  main_js.pot (anaconda 39.24)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.24\n"
+"#-#-#-#-#  main_js.pot (anaconda 39.25)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.25\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-13 01:51+0000\n"
+"POT-Creation-Date: 2023-07-14 01:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,10 +30,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"#-#-#-#-#  extra.pot (anaconda 39.24)  #-#-#-#-#\n"
-"Project-Id-Version: anaconda 39.24\n"
+"#-#-#-#-#  extra.pot (anaconda 39.25)  #-#-#-#-#\n"
+"Project-Id-Version: anaconda 39.25\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-13 01:50+0000\n"
+"POT-Creation-Date: 2023-07-14 01:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6905,7 +6905,7 @@ msgstr ""
 msgid "Create a passphrase"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:102
+#: ui/webui/src/components/AnacondaWizard.jsx:105
 msgid "Custom mount point"
 msgstr ""
 
@@ -6919,7 +6919,7 @@ msgstr ""
 msgid "Detecting disks"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:108
+#: ui/webui/src/components/AnacondaWizard.jsx:111
 msgid "Disk encryption"
 msgstr ""
 
@@ -6998,7 +6998,7 @@ msgstr ""
 msgid "Install on the free space?"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:87
+#: ui/webui/src/components/AnacondaWizard.jsx:90
 msgid "Installation destination"
 msgstr ""
 
@@ -7111,7 +7111,7 @@ msgid ""
 "space on the selected devices, assuming you have enough free space available."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:121
+#: ui/webui/src/components/AnacondaWizard.jsx:124
 msgid "Review and install"
 msgstr ""
 
@@ -7171,7 +7171,7 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:97
+#: ui/webui/src/components/AnacondaWizard.jsx:100
 #: ui/webui/src/components/installation/InstallationProgress.jsx:105
 msgid "Storage configuration"
 msgstr ""
@@ -7180,7 +7180,7 @@ msgstr ""
 msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:92
+#: ui/webui/src/components/AnacondaWizard.jsx:95
 msgid "Storage devices"
 msgstr ""
 
@@ -7296,7 +7296,7 @@ msgid ""
 "connected after starting the installation process."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:82
+#: ui/webui/src/components/AnacondaWizard.jsx:84
 msgid "Welcome"
 msgstr ""
 
