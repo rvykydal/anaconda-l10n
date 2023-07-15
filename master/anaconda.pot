@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.25)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.25\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-14 01:50+0000\n"
+"POT-Creation-Date: 2023-07-15 01:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.25)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.25\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-14 01:50+0000\n"
+"POT-Creation-Date: 2023-07-15 01:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.25)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.25\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-14 01:49+0000\n"
+"POT-Creation-Date: 2023-07-15 01:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6881,11 +6881,11 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:310
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:309
 msgid "Choose a language"
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:319
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:318
 msgid "Chosen language: "
 msgstr ""
 
@@ -6950,7 +6950,7 @@ msgid ""
 "may take a few moments."
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:268
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:267
 msgid "Find a language"
 msgstr ""
 
@@ -7048,7 +7048,7 @@ msgstr ""
 msgid "No existing partitions on the selected disks."
 msgstr ""
 
-#: ui/webui/src/components/localization/InstallationLanguage.jsx:197
+#: ui/webui/src/components/localization/InstallationLanguage.jsx:196
 msgid "No results found"
 msgstr ""
 
