@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.26)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.26\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-21 01:26+0000\n"
+"POT-Creation-Date: 2023-07-22 01:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.26)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.26\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-21 01:26+0000\n"
+"POT-Creation-Date: 2023-07-22 01:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "#-#-#-#-#  extra.pot (anaconda 39.26)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.26\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-21 01:25+0000\n"
+"POT-Creation-Date: 2023-07-22 01:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -245,7 +245,7 @@ msgstr ""
 msgid "%(name)s must have one of the following disklabel types: %(types)s."
 msgstr ""
 
-#: pyanaconda/product.py:68
+#: pyanaconda/product.py:73
 #, python-format
 msgid "%(productName)s %(productVersion)s INSTALLATION"
 msgstr ""
@@ -652,7 +652,7 @@ msgstr ""
 msgid "An unknown error occurred during installation.  Details are below."
 msgstr ""
 
-#: pyanaconda/core/constants.py:282
+#: pyanaconda/core/constants.py:279
 msgid "Anaconda Installer"
 msgstr ""
 
@@ -1018,7 +1018,7 @@ msgstr ""
 msgid "Checking image checksum"
 msgstr ""
 
-#: pyanaconda/core/constants.py:279
+#: pyanaconda/core/constants.py:276
 msgid "Checking software dependencies..."
 msgstr ""
 
@@ -1493,7 +1493,7 @@ msgctxt "GUI|Custom Partitioning|Confirm Delete Dialog"
 msgid "Do _not show this dialog for other selected file systems."
 msgstr ""
 
-#: pyanaconda/core/constants.py:92
+#: pyanaconda/core/constants.py:89
 msgid "Do you really want to quit?"
 msgstr ""
 
@@ -1538,7 +1538,7 @@ msgid ""
 "by a comma."
 msgstr ""
 
-#: pyanaconda/core/constants.py:224
+#: pyanaconda/core/constants.py:221
 msgid "Empty"
 msgstr ""
 
@@ -1673,7 +1673,7 @@ msgstr ""
 msgid "Error detail: "
 msgstr ""
 
-#: pyanaconda/core/constants.py:278
+#: pyanaconda/core/constants.py:275
 msgid "Error setting up repositories"
 msgstr ""
 
@@ -1760,7 +1760,7 @@ msgid ""
 "the log files stored in /tmp"
 msgstr ""
 
-#: pyanaconda/core/constants.py:227
+#: pyanaconda/core/constants.py:224
 msgid "Fair"
 msgstr ""
 
@@ -1931,7 +1931,7 @@ msgid_plural "Giving up attempting to connect after %d tries!\n"
 msgstr[0] ""
 msgstr[1] ""
 
-#: pyanaconda/core/constants.py:228
+#: pyanaconda/core/constants.py:225
 msgid "Good"
 msgstr ""
 
@@ -1990,7 +1990,7 @@ msgstr ""
 msgid "Here we'll describe what your options are."
 msgstr ""
 
-#: pyanaconda/core/constants.py:232
+#: pyanaconda/core/constants.py:229
 msgid "Hide password."
 msgstr ""
 
@@ -2160,7 +2160,7 @@ msgid "Insights"
 msgstr ""
 
 #: data/liveinst/liveinst.desktop:4
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:176
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:174
 msgid "Install"
 msgstr ""
 
@@ -2812,7 +2812,7 @@ msgstr ""
 msgid "No disks assigned"
 msgstr ""
 
-#: pyanaconda/core/constants.py:150
+#: pyanaconda/core/constants.py:147
 msgid ""
 "No disks detected.  Please shut down the computer, connect at least one "
 "disk, and restart to complete installation."
@@ -2831,7 +2831,7 @@ msgstr ""
 msgid "No disks selected. Keeping previous disk set."
 msgstr ""
 
-#: pyanaconda/core/constants.py:155
+#: pyanaconda/core/constants.py:152
 msgid "No disks selected; please select at least one disk to install to."
 msgstr ""
 
@@ -3098,7 +3098,7 @@ msgstr ""
 msgid "Password (confirm): "
 msgstr ""
 
-#: pyanaconda/core/constants.py:218
+#: pyanaconda/core/constants.py:215
 #: pyanaconda/ui/gui/spokes/subscription.py:219
 #: pyanaconda/ui/gui/spokes/subscription.py:233
 msgid "Password set."
@@ -3313,7 +3313,7 @@ msgctxt "GUI|Reclaim Dialog"
 msgid "Preserve _all"
 msgstr ""
 
-#: pyanaconda/core/constants.py:212
+#: pyanaconda/core/constants.py:209
 msgid "Press <b>Done</b> again to use the password anyway."
 msgstr ""
 
@@ -3340,7 +3340,7 @@ msgstr ""
 msgid "Probing storage"
 msgstr ""
 
-#: pyanaconda/core/constants.py:276
+#: pyanaconda/core/constants.py:273
 msgid "Probing storage..."
 msgstr ""
 
@@ -3956,7 +3956,7 @@ msgstr ""
 msgid "Set timezone"
 msgstr ""
 
-#: pyanaconda/core/constants.py:277
+#: pyanaconda/core/constants.py:274
 msgid "Setting up installation source..."
 msgstr ""
 
@@ -4007,7 +4007,7 @@ msgctxt "GUI|Installation Destination|Filter|Other|Interconnect"
 msgid "Show Only _Devices With:"
 msgstr ""
 
-#: pyanaconda/core/constants.py:233
+#: pyanaconda/core/constants.py:230
 msgid "Show password."
 msgstr ""
 
@@ -4020,7 +4020,7 @@ msgctxt "GUI|Custom Partitioning|Container Dialog"
 msgid "Si_ze policy:"
 msgstr ""
 
-#: pyanaconda/core/constants.py:170
+#: pyanaconda/core/constants.py:167
 msgid ""
 "Simultaneous Multithreading (SMT) may improve performance for certain "
 "workloads, but introduces several publicly disclosed security issues. You "
@@ -4029,7 +4029,7 @@ msgid ""
 "these risks."
 msgstr ""
 
-#: pyanaconda/core/constants.py:160
+#: pyanaconda/core/constants.py:157
 msgid ""
 "Simultaneous Multithreading (SMT) technology can provide performance "
 "improvements for certain workloads, but introduces several publicly "
@@ -4130,7 +4130,7 @@ msgstr ""
 msgid "Standard Partition"
 msgstr ""
 
-#: pyanaconda/core/constants.py:88
+#: pyanaconda/core/constants.py:85
 msgid "Start VNC"
 msgstr ""
 
@@ -4184,7 +4184,7 @@ msgstr ""
 msgid "Storing configuration files and kickstarts"
 msgstr ""
 
-#: pyanaconda/core/constants.py:229
+#: pyanaconda/core/constants.py:226
 #: ui/webui/src/components/storage/DiskEncryption.jsx:71
 msgid "Strong"
 msgstr ""
@@ -4547,33 +4547,33 @@ msgstr ""
 msgid "The mount point %s must be on a linux file system."
 msgstr ""
 
-#: pyanaconda/core/constants.py:187
+#: pyanaconda/core/constants.py:184
 msgid "The passphrase is empty."
 msgstr ""
 
-#: pyanaconda/core/constants.py:202
+#: pyanaconda/core/constants.py:199
 msgid "The passphrase is too short"
 msgstr ""
 
-#: pyanaconda/core/constants.py:215
+#: pyanaconda/core/constants.py:212
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
 msgstr ""
 
-#: pyanaconda/core/constants.py:206
+#: pyanaconda/core/constants.py:203
 msgid "The passphrase you have provided is weak."
 msgstr ""
 
-#: pyanaconda/core/constants.py:210
+#: pyanaconda/core/constants.py:207
 msgid "The passphrase you have provided is weak:"
 msgstr ""
 
-#: pyanaconda/core/constants.py:191
+#: pyanaconda/core/constants.py:188
 msgid "The passphrases do not match."
 msgstr ""
 
-#: pyanaconda/core/constants.py:195
+#: pyanaconda/core/constants.py:192
 msgid "The passphrases you entered were different. Please try again."
 msgstr ""
 
@@ -4581,11 +4581,11 @@ msgstr ""
 msgid "The password cannot be more than eight characters long."
 msgstr ""
 
-#: pyanaconda/core/constants.py:186
+#: pyanaconda/core/constants.py:183
 msgid "The password is empty."
 msgstr ""
 
-#: pyanaconda/core/constants.py:201
+#: pyanaconda/core/constants.py:198
 msgid "The password is too short"
 msgstr ""
 
@@ -4597,25 +4597,25 @@ msgstr ""
 msgid "The password was set by kickstart."
 msgstr ""
 
-#: pyanaconda/core/constants.py:214
+#: pyanaconda/core/constants.py:211
 msgid ""
 "The password you have provided contains non-ASCII characters. You may not be "
 "able to switch between keyboard layouts when typing it."
 msgstr ""
 
-#: pyanaconda/core/constants.py:205
+#: pyanaconda/core/constants.py:202
 msgid "The password you have provided is weak."
 msgstr ""
 
-#: pyanaconda/core/constants.py:209
+#: pyanaconda/core/constants.py:206
 msgid "The password you have provided is weak:"
 msgstr ""
 
-#: pyanaconda/core/constants.py:190
+#: pyanaconda/core/constants.py:187
 msgid "The passwords do not match."
 msgstr ""
 
-#: pyanaconda/core/constants.py:194
+#: pyanaconda/core/constants.py:191
 msgid "The passwords you entered were different. Please try again."
 msgstr ""
 
@@ -4845,7 +4845,7 @@ msgid ""
 "parameter."
 msgstr ""
 
-#: pyanaconda/core/constants.py:225
+#: pyanaconda/core/constants.py:222
 msgid "Too short"
 msgstr ""
 
@@ -5028,7 +5028,7 @@ msgstr ""
 msgid "Use password"
 msgstr ""
 
-#: pyanaconda/core/constants.py:89
+#: pyanaconda/core/constants.py:86
 msgid "Use text mode"
 msgstr ""
 
@@ -5272,7 +5272,7 @@ msgid ""
 "make software updates available for you."
 msgstr ""
 
-#: pyanaconda/core/constants.py:226
+#: pyanaconda/core/constants.py:223
 #: pyanaconda/ui/gui/spokes/lib/passphrase.glade:182
 #: ui/webui/src/components/storage/DiskEncryption.jsx:55
 msgid "Weak"
@@ -5536,7 +5536,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: pyanaconda/core/constants.py:217
+#: pyanaconda/core/constants.py:214
 msgid "You will have to press <b>Done</b> twice to confirm it."
 msgstr ""
 
@@ -6882,7 +6882,7 @@ msgid "{} subscriptions attached to the system"
 msgstr ""
 
 #. TRANSLATORS: Password error message from libreport library needs to be joined with "You will have to press <b>Done</b> twice to confirm it." add a missing '.'
-#: pyanaconda/core/constants.py:220
+#: pyanaconda/core/constants.py:217
 msgid "{}. {}"
 msgstr ""
 
@@ -6900,7 +6900,7 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:190
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:188
 msgid "Apply mount point assignment and install"
 msgstr ""
 
@@ -6978,16 +6978,16 @@ msgstr ""
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:156
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:162
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:154
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:160
 msgid "Erase data and install"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:166
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:164
 msgid "Erase data and install?"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:164
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:162
 msgid "Erasing the data cannot be undone."
 msgstr ""
 
@@ -7042,11 +7042,11 @@ msgstr ""
 msgid "Install Fedora…"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:194
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:192
 msgid "Install on the custom mount points?"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:180
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:178
 msgid "Install on the free space?"
 msgstr ""
 
@@ -7084,7 +7084,7 @@ msgstr ""
 msgid "Medium"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:184
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:182
 msgid "Mount point assignment"
 msgstr ""
 
@@ -7096,7 +7096,7 @@ msgstr ""
 msgid "No additional disks detected"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:149
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:147
 msgid "No existing partitions on the selected disks."
 msgstr ""
 
@@ -7108,11 +7108,11 @@ msgstr ""
 msgid "Not Now"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:133
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:131
 msgid "Not enough free space."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:117
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:116
 msgid "Not enough space on selected disks."
 msgstr ""
 
@@ -7145,11 +7145,11 @@ msgstr ""
 msgid "Powered by Anaconda"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:236
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:234
 msgid "Pre-defined scenarios of the selected disks partitioning."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:242
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:240
 msgid "Pre-defined storage label info"
 msgstr ""
 
@@ -7266,13 +7266,13 @@ msgid ""
 "being configured."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:181
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:179
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:195
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:193
 msgid "The installation will use your configured partitioning layout."
 msgstr ""
 
@@ -7289,20 +7289,20 @@ msgid ""
 "swap partition."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:167
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:165
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:135
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:133
 msgid ""
 "There is not enough available free space to install. The installation needs "
 "$1 of available disk space; however, only $0 is currently available on the "
 "selected disks."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:119
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:118
 msgid ""
 "There is not enough space on the disks to install. The installation needs $1 "
 "of disk space; however, the capacity of the selected disks is only $0."
@@ -7336,11 +7336,11 @@ msgstr ""
 msgid "To begin using Fedora 39 (Workstation Edition), reboot your system."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:139
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:137
 msgid "To enable free up disk space"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:123
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:122
 msgid "To enable select bigger disks"
 msgstr ""
 
@@ -7356,7 +7356,7 @@ msgstr ""
 msgid "Unlock encrypted partition $0"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:170
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:168
 msgid "Use free space for the installation"
 msgstr ""
 
