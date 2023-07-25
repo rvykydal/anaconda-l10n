@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 39.26)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.26\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-24 01:26+0000\n"
+"POT-Creation-Date: 2023-07-25 01:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 39.26)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.26\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-24 01:26+0000\n"
+"POT-Creation-Date: 2023-07-25 01:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "#-#-#-#-#  extra.pot (anaconda 39.26)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 39.26\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-07-24 01:25+0000\n"
+"POT-Creation-Date: 2023-07-25 01:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1848,7 +1847,6 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/cart.glade:175
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:263
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:766
-#: ui/webui/src/components/storage/InstallationDestination.jsx:279
 msgid "Free"
 msgstr ""
 
@@ -2061,7 +2059,6 @@ msgid "I want to _proceed"
 msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:931
-#: ui/webui/src/components/storage/InstallationDestination.jsx:276
 msgid "ID"
 msgstr ""
 
@@ -2160,7 +2157,7 @@ msgid "Insights"
 msgstr ""
 
 #: data/liveinst/liveinst.desktop:4
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:174
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:112
 msgid "Install"
 msgstr ""
 
@@ -2678,7 +2675,6 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/lib/additional_repositories.glade:92
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:237
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:740
-#: ui/webui/src/components/storage/InstallationDestination.jsx:272
 msgid "Name"
 msgstr ""
 
@@ -3875,7 +3871,6 @@ msgid "Select additional language support to be installed:"
 msgstr ""
 
 #: pyanaconda/ui/tui/spokes/storage.py:216
-#: ui/webui/src/components/storage/InstallationDestination.jsx:145
 msgid "Select all"
 msgstr ""
 
@@ -4868,7 +4863,6 @@ msgstr ""
 
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:1775
 #: pyanaconda/ui/gui/spokes/lib/summary.glade:140
-#: ui/webui/src/components/storage/InstallationDestination.jsx:306
 msgid "Type"
 msgstr ""
 
@@ -6886,12 +6880,6 @@ msgstr ""
 msgid "{}. {}"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:157
-msgid "$0 selected"
-msgid_plural "$0 selected"
-msgstr[0] ""
-msgstr[1] ""
-
 #: ui/webui/src/components/HeaderKebab.jsx:132
 msgid "About"
 msgstr ""
@@ -6900,12 +6888,8 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:188
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:126
 msgid "Apply mount point assignment and install"
-msgstr ""
-
-#: ui/webui/src/components/storage/InstallationDestination.jsx:284
-msgid "Available storage capacity on the disk."
 msgstr ""
 
 #: ui/webui/src/components/AnacondaHeader.jsx:48
@@ -6948,21 +6932,15 @@ msgstr ""
 msgid "Critical error"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:100
+#: ui/webui/src/components/AnacondaWizard.jsx:95
 msgid "Custom mount point"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:237
-#: ui/webui/src/components/storage/InstallationDestination.jsx:266
-#: ui/webui/src/components/storage/HelpStorageOptions.jsx:34
-msgid "Detect disks"
+#: ui/webui/src/components/AnacondaWizard.jsx:90
+msgid "Disk configuration"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:348
-msgid "Detecting disks"
-msgstr ""
-
-#: ui/webui/src/components/AnacondaWizard.jsx:106
+#: ui/webui/src/components/AnacondaWizard.jsx:101
 msgid "Disk encryption"
 msgstr ""
 
@@ -6978,16 +6956,16 @@ msgstr ""
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:154
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:160
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:92
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:98
 msgid "Erase data and install"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:164
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:102
 msgid "Erase data and install?"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:162
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:100
 msgid "Erasing the data cannot be undone."
 msgstr ""
 
@@ -7018,16 +6996,13 @@ msgstr ""
 msgid "Hide password"
 msgstr ""
 
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:261
+msgid "How would you like to install?"
+msgstr ""
+
 #: ui/webui/src/components/AnacondaHeader.jsx:51
 msgid ""
 "If you do not understand or accept the risks, then please exit this program."
-msgstr ""
-
-#: ui/webui/src/components/storage/HelpStorageOptions.jsx:22
-msgid ""
-"In Installation destination, you can configure disks to be used as the "
-"installation target. You must select a minimum of 1 disk for the "
-"installation process to proceed."
 msgstr ""
 
 #: ui/webui/src/components/installation/InstallationProgress.jsx:173
@@ -7042,49 +7017,35 @@ msgstr ""
 msgid "Install Fedora…"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:192
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:130
 msgid "Install on the custom mount points?"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:178
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:116
 msgid "Install on the free space?"
-msgstr ""
-
-#: ui/webui/src/components/AnacondaWizard.jsx:85
-msgid "Installation destination"
 msgstr ""
 
 #: ui/webui/src/components/installation/InstallationProgress.jsx:137
 msgid "Installation failed"
 msgstr ""
 
+#: ui/webui/src/components/AnacondaWizard.jsx:86
+msgid "Installation method"
+msgstr ""
+
 #: ui/webui/src/components/installation/InstallationProgress.jsx:139
 msgid "Installing"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:479
-msgid "Learn more about your storage options."
-msgstr ""
-
-#: ui/webui/src/components/storage/InstallationDestination.jsx:229
-msgid "Local disks label info"
-msgstr ""
-
-#: ui/webui/src/components/storage/InstallationDestination.jsx:430
-msgid "Local standard disks"
-msgstr ""
-
-#: ui/webui/src/components/storage/InstallationDestination.jsx:222
-msgid ""
-"Locally available storage devices (SATA, NVMe SSD, SCSI hard drives, "
-"external disks, etc.)"
+#: ui/webui/src/components/storage/HelpAutopartOptions.jsx:7
+msgid "Keeps current disk layout and uses only available space."
 msgstr ""
 
 #: ui/webui/src/components/storage/DiskEncryption.jsx:63
 msgid "Medium"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:182
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:120
 msgid "Mount point assignment"
 msgstr ""
 
@@ -7092,11 +7053,7 @@ msgstr ""
 msgid "Must be at least 8 characters"
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:440
-msgid "No additional disks detected"
-msgstr ""
-
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:147
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:85
 msgid "No existing partitions on the selected disks."
 msgstr ""
 
@@ -7108,11 +7065,11 @@ msgstr ""
 msgid "Not Now"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:131
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:69
 msgid "Not enough free space."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:116
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:54
 msgid "Not enough space on selected disks."
 msgstr ""
 
@@ -7129,10 +7086,6 @@ msgid ""
 "untouched."
 msgstr ""
 
-#: ui/webui/src/components/storage/InstallationDestination.jsx:306
-msgid "Partition"
-msgstr ""
-
 #: ui/webui/src/components/storage/DiskEncryption.jsx:173
 msgid "Passphrases must match"
 msgstr ""
@@ -7145,16 +7098,12 @@ msgstr ""
 msgid "Powered by Anaconda"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:234
-msgid "Pre-defined scenarios of the selected disks partitioning."
-msgstr ""
-
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:240
-msgid "Pre-defined storage label info"
-msgstr ""
-
 #: ui/webui/src/components/AnacondaHeader.jsx:35
 msgid "Pre-release"
+msgstr ""
+
+#: ui/webui/src/components/storage/InstallationMethod.jsx:129
+msgid "Re-scan"
 msgstr ""
 
 #: ui/webui/src/components/Error.jsx:47
@@ -7162,54 +7111,22 @@ msgstr ""
 msgid "Reboot"
 msgstr ""
 
-#: ui/webui/src/components/storage/HelpAutopartOptions.jsx:15
+#: ui/webui/src/components/storage/HelpAutopartOptions.jsx:5
 msgid ""
-"Removes all partitions on the selected devices, which includes partitions "
-"created by other operating systems."
+"Remove all partitions on the selected devices, including existing operating "
+"systems. Make sure you have backed up your data."
 msgstr ""
 
-#: ui/webui/src/components/storage/HelpAutopartOptions.jsx:29
-msgid ""
-"Retains your current data and partitions and uses only the unpartitioned "
-"space on the selected devices, assuming you have enough free space available."
+#: ui/webui/src/components/storage/InstallationMethod.jsx:152
+msgid "Rescan"
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:119
+#: ui/webui/src/components/AnacondaWizard.jsx:114
 msgid "Review and install"
-msgstr ""
-
-#: ui/webui/src/components/storage/InstallationDestination.jsx:261
-msgid "Scans for local storage devices"
 msgstr ""
 
 #: ui/webui/src/components/storage/CustomMountPoint.jsx:79
 msgid "Select a mount point"
-msgstr ""
-
-#: ui/webui/src/components/storage/InstallationDestination.jsx:141
-msgid "Select all disks"
-msgstr ""
-
-#: ui/webui/src/components/storage/InstallationDestination.jsx:153
-msgid "Select multiple disks"
-msgstr ""
-
-#: ui/webui/src/components/storage/InstallationDestination.jsx:132
-msgid "Select no disk"
-msgstr ""
-
-#: ui/webui/src/components/storage/InstallationDestination.jsx:136
-msgid "Select none"
-msgstr ""
-
-#: ui/webui/src/components/storage/InstallationDestination.jsx:470
-msgid "Select storage devices"
-msgstr ""
-
-#: ui/webui/src/components/storage/InstallationDestination.jsx:474
-msgid ""
-"Select the devices to install to. The installation requires $0 of available "
-"space. Storage will be automatically partitioned."
 msgstr ""
 
 #: ui/webui/src/components/storage/DiskEncryption.jsx:160
@@ -7219,10 +7136,6 @@ msgstr ""
 #: ui/webui/src/components/storage/UnlockDialog.jsx:114
 #: ui/webui/src/components/storage/DiskEncryption.jsx:129
 msgid "Show password"
-msgstr ""
-
-#: ui/webui/src/components/storage/InstallationDestination.jsx:306
-msgid "Size"
 msgstr ""
 
 #: ui/webui/src/components/installation/InstallationProgress.jsx:110
@@ -7235,21 +7148,12 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: ui/webui/src/components/AnacondaWizard.jsx:95
 #: ui/webui/src/components/installation/InstallationProgress.jsx:105
 msgid "Storage configuration"
 msgstr ""
 
 #: ui/webui/src/components/installation/InstallationProgress.jsx:107
 msgid "Storage configuration: Storage is currently being configured."
-msgstr ""
-
-#: ui/webui/src/components/AnacondaWizard.jsx:90
-msgid "Storage devices"
-msgstr ""
-
-#: ui/webui/src/components/storage/HelpStorageOptions.jsx:18
-msgid "Storage options"
 msgstr ""
 
 #: ui/webui/src/components/installation/InstallationProgress.jsx:134
@@ -7266,13 +7170,13 @@ msgid ""
 "being configured."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:179
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:117
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:193
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:131
 msgid "The installation will use your configured partitioning layout."
 msgstr ""
 
@@ -7280,29 +7184,20 @@ msgstr ""
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
 
-#: ui/webui/src/components/storage/HelpStorageOptions.jsx:38
-msgid ""
-"The installer determines the total amount of space on all selected disks, "
-"and creates a Btrfs layout suitable for your system. The specifics of this "
-"layout depend on whether your system uses BIOS or UEFI firmware and the "
-"total free space on disks. A ZRAM-based swap is used instead of a disk-based "
-"swap partition."
-msgstr ""
-
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:165
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:103
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:133
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:71
 msgid ""
 "There is not enough available free space to install. The installation needs "
 "$1 of available disk space; however, only $0 is currently available on the "
 "selected disks."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:118
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:56
 msgid ""
 "There is not enough space on the disks to install. The installation needs $1 "
 "of disk space; however, the capacity of the selected disks is only $0."
@@ -7322,13 +7217,7 @@ msgstr ""
 msgid "This may take a moment"
 msgstr ""
 
-#: ui/webui/src/components/storage/HelpAutopartOptions.jsx:20
-msgid ""
-"This option removes data from the selected devices, so make sure you have "
-"backed up your data."
-msgstr ""
-
-#: ui/webui/src/components/storage/HelpAutopartOptions.jsx:39
+#: ui/webui/src/components/storage/HelpAutopartOptions.jsx:9
 msgid "This option requires that the selected device has formated partitions."
 msgstr ""
 
@@ -7336,16 +7225,12 @@ msgstr ""
 msgid "To begin using Fedora 39 (Workstation Edition), reboot your system."
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:137
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:75
 msgid "To enable free up disk space"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:122
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:60
 msgid "To enable select bigger disks"
-msgstr ""
-
-#: ui/webui/src/components/storage/InstallationDestination.jsx:277
-msgid "Total"
 msgstr ""
 
 #: ui/webui/src/components/storage/UnlockDialog.jsx:88
@@ -7356,20 +7241,8 @@ msgstr ""
 msgid "Unlock encrypted partition $0"
 msgstr ""
 
-#: ui/webui/src/components/storage/StorageConfiguration.jsx:168
+#: ui/webui/src/components/storage/StorageConfiguration.jsx:106
 msgid "Use free space for the installation"
-msgstr ""
-
-#: ui/webui/src/components/storage/HelpStorageOptions.jsx:33
-msgid ""
-"Use the $0 button to view and configure the local storage devices connected "
-"after starting the installation process."
-msgstr ""
-
-#: ui/webui/src/components/storage/HelpStorageOptions.jsx:28
-msgid ""
-"Use the Detect disks button to view and configure the local storage devices "
-"connected after starting the installation process."
 msgstr ""
 
 #: ui/webui/src/components/AnacondaWizard.jsx:79
