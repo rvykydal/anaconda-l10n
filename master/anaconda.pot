@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 40.6)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 40.6\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-09-28 01:09+0000\n"
+"POT-Creation-Date: 2023-09-29 01:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 40.6)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 40.6\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-09-28 01:09+0000\n"
+"POT-Creation-Date: 2023-09-29 01:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6877,7 +6877,7 @@ msgstr ""
 msgid "$0 installation"
 msgstr ""
 
-#: ui/webui/src/components/HeaderKebab.jsx:77
+#: ui/webui/src/components/HeaderKebab.jsx:78
 msgid "$0 installer"
 msgstr ""
 
@@ -6885,7 +6885,7 @@ msgstr ""
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr ""
 
-#: ui/webui/src/components/HeaderKebab.jsx:140
+#: ui/webui/src/components/HeaderKebab.jsx:136
 msgid "About"
 msgstr ""
 
@@ -6897,7 +6897,7 @@ msgstr ""
 msgid "All devices using this passphrase will be unlocked"
 msgstr ""
 
-#: ui/webui/src/components/HeaderKebab.jsx:106
+#: ui/webui/src/components/HeaderKebab.jsx:107
 msgid "Anaconda project page"
 msgstr ""
 
@@ -7265,7 +7265,7 @@ msgstr ""
 msgid "Please attach the log file $0 to the issue."
 msgstr ""
 
-#: ui/webui/src/components/HeaderKebab.jsx:78
+#: ui/webui/src/components/HeaderKebab.jsx:79
 msgid "Powered by Anaconda"
 msgstr ""
 
@@ -7314,7 +7314,7 @@ msgid ""
 "systems. Make sure you have backed up your data."
 msgstr ""
 
-#: ui/webui/src/components/HeaderKebab.jsx:143
+#: ui/webui/src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
 msgstr ""
 
