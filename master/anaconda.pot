@@ -9,7 +9,7 @@ msgstr ""
 "#-#-#-#-#  main.pot (anaconda 40.9)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 40.9\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-10-18 01:10+0000\n"
+"POT-Creation-Date: 2023-10-19 01:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "#-#-#-#-#  main_js.pot (anaconda 40.9)  #-#-#-#-#\n"
 "Project-Id-Version: anaconda 40.9\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2023-10-18 01:10+0000\n"
+"POT-Creation-Date: 2023-10-19 01:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -704,8 +704,8 @@ msgstr ""
 msgid "Attempting to start vncconfig"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/lib/network_secret_agent.glade:8
 #: pyanaconda/ui/gui/spokes/subscription.glade:83
+#: pyanaconda/ui/gui/spokes/lib/network_secret_agent.glade:8
 msgid "Authentication"
 msgstr ""
 
@@ -982,9 +982,9 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:1148
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:1466
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:1789
+#: pyanaconda/ui/gui/spokes/lib/cart.glade:162
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:250
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:753
-#: pyanaconda/ui/gui/spokes/lib/cart.glade:162
 msgid "Capacity"
 msgstr ""
 
@@ -1029,8 +1029,8 @@ msgstr ""
 msgid "City"
 msgstr ""
 
-#: pyanaconda/modules/payloads/source/closest_mirror/closest_mirror.py:52
 #: pyanaconda/ui/tui/spokes/installation_source.py:151
+#: pyanaconda/modules/payloads/source/closest_mirror/closest_mirror.py:52
 #: pyanaconda/ui/gui/spokes/installation_source.glade:356
 msgid "Closest mirror"
 msgstr ""
@@ -1290,9 +1290,9 @@ msgstr ""
 msgid "Deployment starting: {}"
 msgstr ""
 
+#: pyanaconda/ui/gui/spokes/lib/cart.glade:137
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:219
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:727
-#: pyanaconda/ui/gui/spokes/lib/cart.glade:137
 msgid "Description"
 msgstr ""
 
@@ -1832,9 +1832,9 @@ msgstr ""
 msgid "Formatting DASDs"
 msgstr ""
 
+#: pyanaconda/ui/gui/spokes/lib/cart.glade:175
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:263
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:766
-#: pyanaconda/ui/gui/spokes/lib/cart.glade:175
 msgid "Free"
 msgstr ""
 
@@ -2256,8 +2256,8 @@ msgstr ""
 msgid "Installing the software"
 msgstr ""
 
-#: pyanaconda/modules/payloads/payload/rpm_ostree/flatpak_manager.py:203
 #: pyanaconda/modules/payloads/payload/dnf/transaction_progress.py:43
+#: pyanaconda/modules/payloads/payload/rpm_ostree/flatpak_manager.py:203
 msgid "Installing {}"
 msgstr ""
 
@@ -2279,8 +2279,8 @@ msgid ""
 "directory"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/lib/installation_source_helpers.py:256
 #: pyanaconda/ui/gui/spokes/installation_source.py:792
+#: pyanaconda/ui/gui/spokes/lib/installation_source_helpers.py:256
 msgid "Invalid URL"
 msgstr ""
 
@@ -2654,11 +2654,11 @@ msgstr ""
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:386
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:1438
 #: pyanaconda/ui/gui/spokes/advanced_storage.glade:1761
-#: pyanaconda/ui/gui/spokes/lib/additional_repositories.glade:92
-#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:237
-#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:740
 #: pyanaconda/ui/gui/spokes/lib/resize.glade:161
 #: pyanaconda/ui/gui/spokes/lib/cart.glade:150
+#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:237
+#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:740
+#: pyanaconda/ui/gui/spokes/lib/additional_repositories.glade:92
 msgid "Name"
 msgstr ""
 
@@ -2685,8 +2685,8 @@ msgstr ""
 msgid "Name cannot start with '-' character."
 msgstr ""
 
-#: pyanaconda/modules/storage/partitioning/interactive/utils.py:329
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.py:631
+#: pyanaconda/modules/storage/partitioning/interactive/utils.py:329
 msgid "Name is already in use."
 msgstr ""
 
@@ -3061,9 +3061,8 @@ msgid ""
 "least {} characters."
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/user.py:148
 #: pyanaconda/ui/tui/spokes/root_password.py:90
-#: pyanaconda/ui/gui/spokes/user.glade:176
+#: pyanaconda/ui/tui/spokes/user.py:148 pyanaconda/ui/gui/spokes/user.glade:176
 #: pyanaconda/ui/gui/spokes/subscription.glade:181
 #: pyanaconda/ui/gui/spokes/subscription.glade:571
 #: pyanaconda/ui/gui/spokes/root_password.glade:241
@@ -3074,9 +3073,9 @@ msgstr ""
 msgid "Password (confirm): "
 msgstr ""
 
-#: pyanaconda/core/constants.py:211
 #: pyanaconda/ui/gui/spokes/subscription.py:219
 #: pyanaconda/ui/gui/spokes/subscription.py:233
+#: pyanaconda/core/constants.py:211
 msgid "Password set."
 msgstr ""
 
@@ -3130,7 +3129,7 @@ msgid ""
 "\"lvmpv\"."
 msgstr ""
 
-#: pyanaconda/ui/tui/hubs/__init__.py:142 pyanaconda/ui/tui/hubs/summary.py:152
+#: pyanaconda/ui/tui/hubs/summary.py:152 pyanaconda/ui/tui/hubs/__init__.py:142
 msgid "Please complete all spokes before continuing"
 msgstr ""
 
@@ -3320,10 +3319,10 @@ msgstr ""
 msgid "Probing storage..."
 msgstr ""
 
-#: pyanaconda/ui/tui/spokes/storage.py:139
 #: pyanaconda/ui/tui/spokes/software_selection.py:156
-#: pyanaconda/ui/gui/spokes/storage.py:292
+#: pyanaconda/ui/tui/spokes/storage.py:139
 #: pyanaconda/ui/gui/spokes/software_selection.py:180
+#: pyanaconda/ui/gui/spokes/storage.py:292
 msgid "Processing..."
 msgstr ""
 
@@ -3347,7 +3346,7 @@ msgstr ""
 msgid "Purpose"
 msgstr ""
 
-#: pyanaconda/ui/gui/main.glade:176 ui/webui/src/components/Error.jsx:207
+#: pyanaconda/ui/gui/main.glade:176 ui/webui/src/components/Error.jsx:212
 #: ui/webui/src/components/AnacondaWizard.jsx:427
 #: ui/webui/src/components/AnacondaWizard.jsx:453
 #: ui/webui/src/components/installation/InstallationProgress.jsx:221
@@ -3409,33 +3408,33 @@ msgstr ""
 msgid "RAID volume \"{}\" specified with --useexisting does not exist."
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:551
 #: pyanaconda/ui/gui/spokes/custom_storage.glade:56
+#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:551
 msgid "RAID0"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:555
 #: pyanaconda/ui/gui/spokes/custom_storage.glade:60
+#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:555
 msgid "RAID1"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:571
 #: pyanaconda/ui/gui/spokes/custom_storage.glade:76
+#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:571
 msgid "RAID10"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:559
 #: pyanaconda/ui/gui/spokes/custom_storage.glade:64
+#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:559
 msgid "RAID4"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:563
 #: pyanaconda/ui/gui/spokes/custom_storage.glade:68
+#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:563
 msgid "RAID5"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:567
 #: pyanaconda/ui/gui/spokes/custom_storage.glade:72
+#: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:567
 msgid "RAID6"
 msgstr ""
 
@@ -3571,9 +3570,9 @@ msgstr ""
 msgid "Registration failed due to insufficient credentials."
 msgstr ""
 
+#: pyanaconda/ui/gui/spokes/subscription.py:1004
 #: pyanaconda/modules/subscription/runtime.py:260
 #: pyanaconda/modules/subscription/runtime.py:306
-#: pyanaconda/ui/gui/spokes/subscription.py:1004
 msgid "Registration failed."
 msgstr ""
 
@@ -3786,8 +3785,8 @@ msgstr ""
 msgid "SUMMARY OF CHANGES"
 msgstr ""
 
-#: pyanaconda/ui/categories/system.py:30
 #: pyanaconda/ui/gui/spokes/lib/accordion.py:432
+#: pyanaconda/ui/categories/system.py:30
 msgid "SYSTEM"
 msgstr ""
 
@@ -4184,8 +4183,8 @@ msgstr ""
 msgid "Supported formats: %s"
 msgstr ""
 
-#: pyanaconda/modules/payloads/payload/live_image/installation_progress.py:75
 #: pyanaconda/modules/payloads/payload/live_image/installation.py:410
+#: pyanaconda/modules/payloads/payload/live_image/installation_progress.py:75
 msgid "Synchronizing writes to disk"
 msgstr ""
 
@@ -4856,8 +4855,8 @@ msgid "Type"
 msgstr ""
 
 #: pyanaconda/ui/gui/spokes/welcome.py:213
-#: pyanaconda/ui/gui/spokes/language_support.glade:186
 #: pyanaconda/ui/gui/spokes/welcome.glade:206
+#: pyanaconda/ui/gui/spokes/language_support.glade:186
 msgid "Type here to search."
 msgstr ""
 
@@ -4917,9 +4916,9 @@ msgstr ""
 msgid "Unformatted DASDs Detected"
 msgstr ""
 
-#: pyanaconda/network.py:433 pyanaconda/ui/gui/spokes/network.py:284
 #: pyanaconda/ui/gui/spokes/custom_storage.py:466
 #: pyanaconda/ui/gui/spokes/custom_storage.py:509
+#: pyanaconda/ui/gui/spokes/network.py:284 pyanaconda/network.py:433
 msgid "Unknown"
 msgstr ""
 
@@ -5452,8 +5451,8 @@ msgid ""
 "parentheses. "
 msgstr ""
 
-#: pyanaconda/modules/storage/partitioning/interactive/utils.py:428
 #: pyanaconda/modules/storage/checker/utils.py:57
+#: pyanaconda/modules/storage/partitioning/interactive/utils.py:428
 msgid "You must create a new file system on the root device."
 msgstr ""
 
@@ -6869,7 +6868,7 @@ msgstr ""
 msgid "{}. {}"
 msgstr ""
 
-#: ui/webui/src/components/app.jsx:108
+#: ui/webui/src/components/app.jsx:115
 msgid "$0 installation"
 msgstr ""
 
@@ -6905,8 +6904,8 @@ msgstr ""
 msgid "Applying new disk selection..."
 msgstr ""
 
-#: ui/webui/src/components/review/ReviewConfiguration.jsx:199
 #: ui/webui/src/components/AnacondaWizard.jsx:405
+#: ui/webui/src/components/review/ReviewConfiguration.jsx:199
 msgid "Back"
 msgstr ""
 
@@ -6924,7 +6923,7 @@ msgid ""
 "issues in order to enhance this work."
 msgstr ""
 
-#: ui/webui/src/components/Error.jsx:240
+#: ui/webui/src/components/Error.jsx:245
 #: ui/webui/src/components/storage/ModifyStorage.jsx:115
 msgid "Cancel"
 msgstr ""
@@ -6969,7 +6968,7 @@ msgstr ""
 msgid "Continue installation"
 msgstr ""
 
-#: ui/webui/src/components/Error.jsx:225
+#: ui/webui/src/components/Error.jsx:230
 msgid "Critical error"
 msgstr ""
 
@@ -7035,7 +7034,7 @@ msgstr ""
 msgid "Erasing the data cannot be undone. Be sure to have backups."
 msgstr ""
 
-#: ui/webui/src/components/Error.jsx:228
+#: ui/webui/src/components/Error.jsx:233
 msgid "Error details"
 msgstr ""
 
@@ -7281,11 +7280,11 @@ msgstr ""
 msgid "Re-scan"
 msgstr ""
 
-#: ui/webui/src/components/app.jsx:89
+#: ui/webui/src/components/app.jsx:96
 msgid "Reading information about the computer failed."
 msgstr ""
 
-#: ui/webui/src/components/app.jsx:94
+#: ui/webui/src/components/app.jsx:101
 msgid "Reading installer configuration failed."
 msgstr ""
 
@@ -7293,7 +7292,7 @@ msgstr ""
 msgid "Reading installer version information failed."
 msgstr ""
 
-#: ui/webui/src/components/Error.jsx:207
+#: ui/webui/src/components/Error.jsx:212
 #: ui/webui/src/components/AnacondaWizard.jsx:427
 #: ui/webui/src/components/AnacondaWizard.jsx:453
 #: ui/webui/src/components/installation/InstallationProgress.jsx:221
@@ -7314,7 +7313,7 @@ msgstr ""
 msgid "Report Issue"
 msgstr ""
 
-#: ui/webui/src/components/Error.jsx:146 ui/webui/src/components/Error.jsx:251
+#: ui/webui/src/components/Error.jsx:146 ui/webui/src/components/Error.jsx:256
 msgid "Report issue"
 msgstr ""
 
@@ -7423,7 +7422,7 @@ msgid ""
 "software. "
 msgstr ""
 
-#: ui/webui/src/components/Error.jsx:248
+#: ui/webui/src/components/Error.jsx:253
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
@@ -7443,11 +7442,11 @@ msgstr ""
 msgid "The installation will use your configured partitioning layout."
 msgstr ""
 
-#: ui/webui/src/components/Error.jsx:217
+#: ui/webui/src/components/Error.jsx:222
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
 
-#: ui/webui/src/components/Error.jsx:216
+#: ui/webui/src/components/Error.jsx:221
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr ""
 
