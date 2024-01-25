@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 40.18\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2024-01-24 01:15+0000\n"
+"POT-Creation-Date: 2024-01-25 01:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -304,7 +304,7 @@ msgstr ""
 msgid "%s timezone"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/keyboard.py:49
+#: pyanaconda/ui/gui/spokes/keyboard.py:46
 #, python-format
 msgid "%s to switch layouts."
 msgstr ""
@@ -1874,7 +1874,7 @@ msgstr ""
 msgid "Generating initramfs"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/keyboard.py:434
+#: pyanaconda/ui/gui/spokes/keyboard.py:433
 msgid "Getting list of layouts..."
 msgstr ""
 
@@ -2325,7 +2325,7 @@ msgstr ""
 msgid "KEYBOARD LAYOUT"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/keyboard.py:490
+#: pyanaconda/ui/gui/spokes/keyboard.py:489
 msgid ""
 "Keyboard layouts are not supported when using VNC.\n"
 "However the settings will be used after the installation."
@@ -2391,7 +2391,7 @@ msgstr ""
 msgid "Layout Options"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/keyboard.py:500
+#: pyanaconda/ui/gui/spokes/keyboard.py:499
 msgid "Layout switching not configured."
 msgstr ""
 
@@ -4114,7 +4114,7 @@ msgstr ""
 msgid "Team %(interface_name)s (%(list_of_ports)s) connected"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/keyboard.py:426
+#: pyanaconda/ui/gui/spokes/keyboard.py:425
 msgid "Testing layouts configuration not available."
 msgstr ""
 
@@ -5889,7 +5889,7 @@ msgctxt "GUI|Network|Secrets Dialog"
 msgid "_Key:"
 msgstr ""
 
-#: pyanaconda/ui/gui/spokes/keyboard.py:304
+#: pyanaconda/ui/gui/spokes/keyboard.py:301
 msgctxt "GUI|Spoke"
 msgid "_Keyboard"
 msgstr ""
