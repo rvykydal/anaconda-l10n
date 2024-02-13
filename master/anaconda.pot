@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 40.21\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
-"POT-Creation-Date: 2024-02-12 01:08+0000\n"
+"POT-Creation-Date: 2024-02-13 01:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -618,7 +618,7 @@ msgstr ""
 msgid "Anaconda Installer"
 msgstr ""
 
-#: anaconda.py:309
+#: anaconda.py:320
 #, python-format
 msgid ""
 "Anaconda is unable to create %s because the file already exists. Anaconda is "
@@ -1871,7 +1871,7 @@ msgstr[1] ""
 msgid "Good"
 msgstr ""
 
-#: pyanaconda/display.py:341
+#: pyanaconda/display.py:345
 msgid "Graphical installation is not available. Starting text mode."
 msgstr ""
 
@@ -4063,7 +4063,7 @@ msgstr ""
 msgid "Testing layouts configuration not available."
 msgstr ""
 
-#: pyanaconda/display.py:349
+#: pyanaconda/display.py:353
 msgid ""
 "Text mode provides a limited set of installation options. It does not offer "
 "custom partitioning for full control over the disk layout. Would you like to "
@@ -4714,7 +4714,7 @@ msgstr ""
 msgid "USER SETTINGS"
 msgstr ""
 
-#: anaconda.py:308
+#: anaconda.py:319
 msgid "Unable to create PID file"
 msgstr ""
 
@@ -5173,7 +5173,7 @@ msgstr ""
 msgid "Writing objects"
 msgstr ""
 
-#: pyanaconda/display.py:392
+#: pyanaconda/display.py:396
 msgid ""
 "X was unable to start on your machine. Would you like to start VNC to "
 "connect to this computer from another computer and perform a graphical "
